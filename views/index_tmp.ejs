@@ -1,0 +1,17 @@
+<%- include header %>
+<% docs.forEach(function(doc,index){ %>
+<div class="publish_section">
+   <h3><a href="/<%= doc.name %>/<%= doc.time.day %>/<%= doc.title %>"><%= doc.title %></a></h3>
+  <p class="Blog_info">
+      Author : <a href="/<%= doc.name %>"><%= doc.name %></a>
+      Date : <span><%= doc.time.minute %></span>
+  </p>
+
+  <%- doc.publish %>
+</div>
+<% }); %>
+
+<% include page.ejs %>
+  
+
+<% include footer %>

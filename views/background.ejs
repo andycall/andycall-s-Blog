@@ -1,0 +1,123 @@
+<% include admin_head %>
+<main role="main" id="main">
+    <aside id="notifications" class="notifications">
+    </aside>
+    <section class="content-view-container">
+        <section class="content-list js-content-list">
+            <header class="floatingheader">
+                <section class="content-filter">
+                    <small>
+                        All Posts
+                    </small>
+                </section>
+            </header>
+            <section class="content-list-content">
+                <ol>
+                <% docs.forEach(function(doc,index){ %>
+                    <li>
+                        <a class="permalink" href="<%= site %>/edit/<%= doc.name %>/<%= doc.time.day %>/<%= doc.title %>" title="Edit this post">
+                            <h3 class="entry-title">
+                                <%= doc.title %>
+                            </h3>
+                            <section class="entry-meta">
+                                <span class="status">
+                                    <time datetime="<%= doc.time.day %>" class="date published">
+                                <%= doc.time.day %>
+                                    </time>
+                                </span>
+                            </section>
+                        </a>
+                        <a href="<%= site %>/delete/<%= doc.name %>/<%= doc.time.day %>/<%= doc.title %>">Delete</a>
+                    </li>
+                <% }); %>
+                </ol>
+            </section>
+        </section>
+        <section class="content-preview js-content-preview">
+            <header class="floatingheader">
+                <button class="button-back" href="#">
+                    Back
+                </button>
+                <a class="unfeatured" href="#" title="Feature this post">
+                    <span class="hidden">
+                        Star
+                    </span>
+                </a>
+                <small>
+                    <span class="status">
+                        Published
+                    </span>
+                    <span class="normal">
+                        by
+                    </span>
+                    <span class="author">
+                        <%= user.username %>
+                    </span>
+                </small>
+                <section class="post-controls">
+                    <a class="post-edit" href="#" title="Edit Post">
+                        <span class="hidden">
+                            Edit Post
+                        </span>
+                    </a>
+                    <a class="post-settings" href="#" data-toggle=".post-settings-menu" title="Post Settings">
+                        <span class="hidden">
+                            Post Settings
+                        </span>
+                    </a>
+                    <div class="post-settings-menu menu-drop-right overlay" style="display: none;">
+                        <form>
+                            <table class="plain">
+                                <tbody>
+                                    <tr class="post-setting">
+                                        <td class="post-setting-label">
+                                            <label for="url">
+                                                URL
+                                            </label>
+                                        </td>
+                                        <td class="post-setting-field">
+                                            <input id="url" class="post-setting-slug" type="text" value="">
+                                        </td>
+                                    </tr>
+                                    <tr class="post-setting">
+                                        <td class="post-setting-label">
+                                            <label for="pub-date">
+                                                Pub Date
+                                            </label>
+                                        </td>
+                                        <td class="post-setting-field">
+                                            <input id="pub-date" class="post-setting-date" type="text" value="" placeholder="">
+                                            <!--<span class="post-setting-calendar"></span>-->
+                                        </td>
+                                    </tr>
+                                    <tr class="post-setting">
+                                        <td class="post-setting-label">
+                                            <span class="label">
+                                                Static Page
+                                            </span>
+                                        </td>
+                                        <td class="post-setting-item">
+                                            <input id="static-page" class="post-setting-static-page" type="checkbox"
+                                            value="">
+                                            <label class="checkbox" for="static-page">
+                                            </label>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                        <a class="delete" href="#">
+                            Delete This Post
+                        </a>
+                    </div>
+                </section>
+            </header>
+            <section class="content-preview-content">
+                <div class="wrapper">
+                    <%- docs  %>
+                </div>
+            </section>
+        </section>
+    </section>
+</main>
+<% include admin_foot %>

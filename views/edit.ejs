@@ -1,0 +1,13 @@
+<% include admin_head %>
+<form method="post">
+	<section>
+		<input type="text" name="title" id="title" value="<%= doc.title %>" readonly/>
+	</section>
+	<section>
+		<textarea name="publish" id="publish" cols="30" rows="10"><%= doc.publish %></textarea>
+	</section>
+	<input type="submit" value="submit" name="submit" />
+</form>
+
+
+<% include admin_foot %>

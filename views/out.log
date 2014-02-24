@@ -1,0 +1,2497 @@
+Express server listening on port 1500
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [36m304 [90m128ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m24ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m24ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m18ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m19ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m18ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m3ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m4ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [36m304 [90m38ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m13ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m6ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m17ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m13ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m10ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m11ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m3ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [36m304 [90m38ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m19ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m22ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m23ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m18ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m15ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m17ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m18ms[0m
+[90mGET /images/favicon.ico [36m304 [90m3ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [36m304 [90m21ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m10ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m10ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m10ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m11ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m10ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m10ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m3ms[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%BC%80%E7%AF%87%E8%BE%9F%E5%9C%B0 [32m200 [90m29ms - 7.13kb[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m25ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m28ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m26ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m25ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m25ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m22ms - 4.52kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m10ms - 4.52kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m26ms - 8.58kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m18ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m19ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m16ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m21ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m19ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [36m304 [90m14ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [36m304 [90m6ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m85ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m6ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m7ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m9ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m16ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m14ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m7ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m6ms - 3.16kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m20ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m6ms - 7.17kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m5ms - 5.62kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m4ms - 2.44kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m2ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m4ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m4ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m4ms - 3.16kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m22ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m8ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m7ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m5ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m6ms - 1.34kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m6ms - 2.03kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m6ms - 19.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m6ms - 3.16kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m23ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m5ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m6ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m10ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m13ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m13ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m9ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m8ms - 3.16kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m15ms - 8.58kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m6ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m5ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m4ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m4ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m4ms - 19.03kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m7ms - 4.52kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m8ms - 4.52kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m66ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m3ms - 7.17kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m8ms - 5.62kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m11ms - 2.44kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m9ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m9ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m6ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m3ms - 3.16kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%BC%80%E7%AF%87%E8%BE%9F%E5%9C%B0 [32m200 [90m43ms - 7.13kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m5ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m3ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m3ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m6ms - 4.52kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m9ms - 4.52kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m21ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m8ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m6ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m8ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m6ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m6ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m6ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m6ms - 3.16kb[0m
+[90mGET /andycall [36m302 [90m7ms - 68b[0m
+0
+[90mGET /login [32m200 [90m15ms - 8.64kb[0m
+[90mGET /andycall [36m302 [90m4ms - 68b[0m
+0
+[90mGET /login [36m304 [90m10ms[0m
+[90mGET /andycall [36m302 [90m2ms - 68b[0m
+0
+[90mGET /login [36m304 [90m5ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m25ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m4ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m5ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m9ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m7ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m7ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m6ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m2ms - 3.16kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m21ms - 8.58kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m5ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m16ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m15ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m14ms - 4.52kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m4ms - 4.52kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m20ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m4ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m3ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m14ms - 5.62kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m11ms - 19.03kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m8ms - 1.34kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m7ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m5ms - 3.16kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m21ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m10ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m15ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m5ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m3ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m4ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m3ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m4ms - 3.16kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m20ms - 8.58kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m5ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m8ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m8ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m7ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m10ms - 4.52kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m6ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m5ms - 4.52kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%BC%80%E7%AF%87%E8%BE%9F%E5%9C%B0 [32m200 [90m17ms - 7.13kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m7ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m5ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [36m304 [90m5ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [36m304 [90m4ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m21ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m2ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m3ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m3ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m2ms - 1.34kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m5ms - 3.16kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m4ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m4ms - 2.03kb[0m
+[90mGET /andycall [36m302 [90m2ms - 68b[0m
+0
+[90mGET /login [32m200 [90m4ms - 8.64kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [36m304 [90m19ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m2ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m3ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m4ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m3ms[0m
+[90mGET /andycall [36m302 [90m2ms - 68b[0m
+0
+[90mGET /login [36m304 [90m9ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [36m304 [90m20ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m2ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m9ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m10ms[0m
+[90mGET /andycall [36m302 [90m2ms - 68b[0m
+0
+[90mGET /login [36m304 [90m8ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m24ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m3ms - 7.17kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m17ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m3ms - 7.17kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m7ms - 5.62kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m6ms - 2.44kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m5ms - 1.34kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m8ms - 3.16kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m7ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m5ms - 2.03kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m3ms[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m25ms - 8.58kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m5ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m5ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m39ms - 4.52kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m38ms - 4.52kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m38ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m2ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m18ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m3ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m3ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m3ms - 5.62kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m6ms - 19.03kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m5ms - 1.34kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m4ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m3ms - 3.16kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m22ms - 8.58kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m6ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m5ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m6ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m5ms - 4.52kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m4ms - 4.52kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m20ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m8ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m7ms - 2.44kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m6ms - 1.34kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m7ms - 5.62kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m3ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m2ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m4ms - 3.16kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%BC%80%E7%AF%87%E8%BE%9F%E5%9C%B0 [32m200 [90m19ms - 7.13kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m3ms - 7.17kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m12ms - 4.52kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m11ms - 4.52kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m16ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m14ms - 1.34kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m13ms - 2.44kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m3ms - 19.03kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m24ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m7ms - 7.17kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m6ms - 5.62kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m5ms - 2.44kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m11ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m11ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m8ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m6ms - 3.16kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m21ms - 8.58kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m5ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m4ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m4ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m5ms - 1.34kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m5ms - 4.52kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m7ms - 19.03kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m4ms - 4.52kb[0m
+[90mPOST /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [36m302 [90m10ms - 68b[0m
+0
+[90mGET /login [32m200 [90m5ms - 8.64kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m19ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m3ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m11ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m10ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m9ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m9ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m8ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m7ms - 3.16kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m20ms - 8.58kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m5ms - 2.44kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m5ms - 7.17kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m5ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m5ms - 1.34kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m4ms - 4.52kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m5ms - 19.03kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m4ms - 4.52kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m16ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m2ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m6ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m6ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m4ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m8ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m7ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m4ms - 3.16kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m22ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m5ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m4ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m5ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m5ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m4ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m3ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m3ms - 3.16kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m21ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m3ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m4ms - 2.44kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m3ms - 1.34kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m3ms - 5.62kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m4ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m3ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m4ms - 3.16kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [36m304 [90m22ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m2ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m3ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m3ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m3ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m3ms[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m17ms - 8.58kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m3ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m5ms - 4.52kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m3ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m5ms - 4.52kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m18ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m2ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m3ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m3ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m2ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m3ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m2ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m2ms - 3.16kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m17ms - 5.4kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m5ms - 19.03kb[0m
+[90mGET /js/plugins.js [32m200 [90m3ms - 4.52kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%BC%80%E7%AF%87%E8%BE%9F%E5%9C%B0 [32m200 [90m25ms - 7.13kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m2ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m2ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m4ms - 4.52kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m4ms - 4.52kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m25ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m4ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m4ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m3ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m3ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m3ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m3ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m3ms - 3.16kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m16ms - 8.58kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m5ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m5ms - 4.52kb[0m
+[90mGET /stylesheets/main.css [36m304 [90m10ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m10ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m10ms - 4.52kb[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m9ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [36m304 [90m19ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m3ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m2ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m2ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m3ms[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m17ms - 8.58kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m2ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m2ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [36m304 [90m3ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [36m304 [90m4ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m15ms - 5.4kb[0m
+[90mGET /andycall/2014-2-22/????��?��????�� [32m200 [90m5ms - 4.52kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m19ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m4ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m3ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m3ms - 5.62kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m9ms - 19.03kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m9ms - 1.34kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m5ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m3ms - 3.16kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m18ms - 8.58kb[0m
+[90mGET /stylesheets/main.css [36m304 [90m26ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m24ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m23ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m25ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m25ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m31ms - 4.52kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m6ms - 4.52kb[0m
+[90mGET /andycall/2014-2-22/??3?o?��??��?1????????? [32m200 [90m7ms - 4.52kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m2ms - 19.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m2ms - 3.16kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m2ms - 2.03kb[0m
+[90mGET /andycall/2014-2-22/??3?o?��??��?1????????? [32m200 [90m5ms - 4.52kb[0m
+[90mGET /andycall/2014-2-22/????��?��????�� [32m200 [90m6ms - 4.52kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m19ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m3ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m3ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m3ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m7ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m3ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m3ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m3ms - 3.16kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m22ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m4ms - 7.17kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m3ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m6ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m4ms - 19.03kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m3ms - 2.44kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m3ms - 3.16kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m5ms - 2.03kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [36m304 [90m18ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m3ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m2ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m3ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m4ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [36m304 [90m21ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m3ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m3ms[0m
+[90mGET /stylesheets/main.css [32m200 [90m4ms[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m1ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m1ms[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m1ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [36m304 [90m34ms[0m
+[90mGET /stylesheets/screen.css [32m200 [90m14ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m14ms - 2.44kb[0m
+[90mGET /javascripts/Observer.js [36m304 [90m7ms[0m
+[90mGET /stylesheets/main.css [32m200 [90m13ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m13ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m13ms - 19.03kb[0m
+[90mGET /javascripts/Factory.js [36m304 [90m5ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [36m304 [90m18ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m2ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m2ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m3ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m2ms[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m17ms - 8.58kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m3ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m4ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m4ms - 4.52kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m3ms - 4.52kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%BC%80%E7%AF%87%E8%BE%9F%E5%9C%B0 [32m200 [90m13ms - 7.13kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m5ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m2ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m7ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [36m304 [90m7ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [36m304 [90m4ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m18ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m3ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m3ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m5ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m5ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m5ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m4ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m4ms - 3.16kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%BC%80%E7%AF%87%E8%BE%9F%E5%9C%B0 [32m200 [90m14ms - 7.13kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m3ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m2ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m4ms - 4.52kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m5ms - 4.52kb[0m
+[90mPOST /andycall/2014-2-22/%E5%BC%80%E7%AF%87%E8%BE%9F%E5%9C%B0 [36m302 [90m11ms - 68b[0m
+0
+[90mGET /login [32m200 [90m9ms - 8.64kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [36m304 [90m13ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m1ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m1ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m2ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [36m304 [90m21ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m5ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m4ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m2ms[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m17ms - 8.58kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m12ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m9ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m8ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m7ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [36m304 [90m7ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [36m304 [90m5ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m17ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m4ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m3ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m9ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m8ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m8ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m7ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m3ms - 3.16kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m15ms - 8.58kb[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m11ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m15ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m15ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m14ms - 4.52kb[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m14ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m13ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m5ms - 4.52kb[0m
+[90mGET /andycall/2014-2-22/images/favicon.ico [32m200 [90m3ms - 4.52kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [36m304 [90m15ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [36m304 [90m8ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m11ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m13ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m12ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m12ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m11ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [36m304 [90m6ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [36m304 [90m26ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m9ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m10ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m9ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m9ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m10ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m12ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m2ms[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%BC%80%E7%AF%87%E8%BE%9F%E5%9C%B0 [32m200 [90m14ms - 7.13kb[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m7ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m5ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m11ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m10ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [36m304 [90m8ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m10ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [36m304 [90m5ms[0m
+[90mPOST /andycall/2014-2-22/%E5%BC%80%E7%AF%87%E8%BE%9F%E5%9C%B0 [36m302 [90m4ms - 68b[0m
+0
+[90mGET /login [32m200 [90m6ms - 8.64kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m16ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m3ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m2ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m4ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m3ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m3ms - 19.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m6ms - 3.16kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m6ms - 2.03kb[0m
+[90mGET /andycall [36m302 [90m7ms - 68b[0m
+0
+[90mGET /login [32m200 [90m9ms - 8.64kb[0m
+[90mGET /andycall [36m302 [90m2ms - 68b[0m
+0
+[90mGET /login [36m304 [90m4ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m19ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m5ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m3ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m7ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m7ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m8ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m7ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m3ms - 3.16kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%BC%80%E7%AF%87%E8%BE%9F%E5%9C%B0 [32m200 [90m15ms - 7.13kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m7ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m6ms - 4.52kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m7ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m4ms - 4.52kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m22ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m3ms - 7.17kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m4ms - 2.03kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m3ms - 2.44kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m4ms - 1.34kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m3ms - 5.62kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m2ms - 19.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m2ms - 3.16kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m18ms - 8.58kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m2ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m3ms - 4.52kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m2ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m4ms - 4.52kb[0m
+[90mPOST /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [36m302 [90m2ms - 68b[0m
+0
+[90mGET /login [32m200 [90m5ms - 8.64kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m17ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m5ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m5ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m5ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m5ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m4ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m2ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m2ms - 3.16kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m14ms - 8.58kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m10ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m9ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m10ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m12ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m10ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m9ms - 4.52kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m5ms - 4.52kb[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m27ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m3ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m3ms - 2.44kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m3ms - 1.34kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m3ms - 5.62kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m2ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m3ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m2ms - 3.16kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%BC%80%E7%AF%87%E8%BE%9F%E5%9C%B0 [32m200 [90m24ms - 7.13kb[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m3ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m3ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m9ms - 4.52kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m7ms - 4.52kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m21ms - 8.58kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m6ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m4ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [36m304 [90m6ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [36m304 [90m5ms[0m
+Connected to database
+Authenticated
+publishs [ { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    comment: [],
+    _id: 53079dabf24fc9e0409de45f,
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m28ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m3ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m4ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m4ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m3ms - 1.34kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m4ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m2ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m3ms - 3.16kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m37ms - 8.62kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m6ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m5ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m6ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m6ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m5ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m7ms - 4.52kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m6ms - 4.52kb[0m
+Connected to database
+Authenticated
+[90mPOST /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [36m302 [90m15ms - 270b[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m21ms - 9.23kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m2ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m5ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [36m304 [90m5ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [36m304 [90m6ms[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m20ms - 9.17kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m3ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m5ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m4ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [36m304 [90m6ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [36m304 [90m4ms[0m
+Connected to database
+Authenticated
+publishs [ { _id: 53079dabf24fc9e0409de45f,
+    comment: [ [Object] ],
+    name: 'andycall',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m19ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m2ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m2ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m2ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m2ms[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m18ms - 9.17kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m3ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m3ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [36m304 [90m5ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [36m304 [90m4ms[0m
+Connected to database
+Authenticated
+publishs [ { _id: 53079dabf24fc9e0409de45f,
+    comment: [ [Object] ],
+    name: 'andycall',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [36m304 [90m19ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m3ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m3ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m3ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m2ms[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m19ms - 9.18kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m2ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m3ms[0m
+[90mGET /images/user.png [32m200 [90m4ms - 1.46kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [36m304 [90m4ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [36m304 [90m3ms[0m
+Connected to database
+Authenticated
+publishs [ { _id: 53079dabf24fc9e0409de45f,
+    comment: [ [Object] ],
+    name: 'andycall',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m17ms - 5.4kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m58ms - 3.16kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m55ms - 19.03kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m55ms - 2.03kb[0m
+Connected to database
+Authenticated
+publishs [ { _id: 53079dabf24fc9e0409de45f,
+    comment: [ [Object] ],
+    name: 'andycall',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m18ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m2ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m2ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m2ms[0m
+Connected to database
+Authenticated
+publishs [ { _id: 53079dabf24fc9e0409de45f,
+    comment: [ [Object] ],
+    name: 'andycall',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m17ms - 5.4kb[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m6ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m7ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m6ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m6ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m5ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m3ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m2ms[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m18ms - 9.13kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m8ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m9ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m8ms[0m
+[90mGET /images/user.png [32m200 [90m9ms - 1.46kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [36m304 [90m11ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [36m304 [90m11ms[0m
+Connected to database
+Authenticated
+publishs [ { _id: 53079dabf24fc9e0409de45f,
+    comment: [ [Object] ],
+    name: 'andycall',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m19ms - 5.4kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m13ms - 5.62kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m11ms - 7.17kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m10ms - 1.34kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m10ms - 2.44kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m9ms - 2.03kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m8ms - 19.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m3ms - 3.16kb[0m
+Connected to database
+Authenticated
+publishs [ { _id: 53079dabf24fc9e0409de45f,
+    comment: [ [Object] ],
+    name: 'andycall',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m15ms - 5.4kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m3ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m3ms - 3.16kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m3ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m3ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m2ms - 5.62kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m2ms - 19.03kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m3ms - 1.34kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m4ms - 2.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m3ms - 3.16kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m19ms - 9.13kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m2ms[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%e5%85%b3%e4%ba%8e%e9%bb%91%e8%8b%b9%e6%9e%9c%e3%80%82%e3%80%82 [32m200 [90m17ms - 9.13kb[0m
+[90mGET /stylesheets/main.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m4ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m3ms - 19.03kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m5ms - 4.52kb[0m
+[90mGET /images/user.png [32m200 [90m5ms - 1.46kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m5ms - 4.52kb[0m
+[90mPOST /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [36m302 [90m4ms - 68b[0m
+0
+[90mGET /login [32m200 [90m5ms - 8.64kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m24ms - 9.13kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m7ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m8ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m9ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m9ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [36m304 [90m9ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [36m304 [90m4ms[0m
+[90mGET /images/user.png [32m200 [90m4ms - 1.46kb[0m
+Connected to database
+Authenticated
+publishs [ { _id: 53079dabf24fc9e0409de45f,
+    comment: [ [Object] ],
+    name: 'andycall',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [36m304 [90m18ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m7ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m9ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m8ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m8ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m8ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m4ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m2ms[0m
+Connected to database
+Authenticated
+publishs [ { _id: 53079dabf24fc9e0409de45f,
+    comment: [ [Object] ],
+    name: 'andycall',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m19ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m4ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m3ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m5ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m2ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m2ms[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%85%B3%E4%BA%8E%E9%BB%91%E8%8B%B9%E6%9E%9C%E3%80%82%E3%80%82 [32m200 [90m26ms - 9.13kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m2ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [36m304 [90m5ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m2ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [36m304 [90m5ms[0m
+[90mGET /images/user.png [32m200 [90m4ms - 1.46kb[0m
+Connected to database
+Authenticated
+publishs [ { _id: 53079dabf24fc9e0409de45f,
+    comment: [ [Object] ],
+    name: 'andycall',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [36m304 [90m19ms[0m
+[90mGET /stylesheets/screen.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m2ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m3ms[0m
+[90mGET /javascripts/Factory.js [36m304 [90m3ms[0m
+[90mGET /javascripts/Observer.js [36m304 [90m3ms[0m
+Connected to database
+Authenticated
+publishs [ { _id: 53079dabf24fc9e0409de45f,
+    comment: [ [Object] ],
+    name: 'andycall',
+    publish: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡的日子，把远景论坛送的100PB用的一干二净而且天天没日没夜看各种技术贴。当时我妈都有点看不下去了，天天问我弄好了没。＝ ＝ \n有人可能问我，你费这么大劲去装黑苹果值得么。Windows不是很好用么。作为一名Unix的忠实粉丝。虽然Linux已经将Unix的特性还原得很好，可就缺一点日常使用的应用比如QQ。所以在Linux还是有一点点麻烦的。为次我爱上了Apple的OS X。强大的软件支持以及Unix内核都让我爱不释手。正所谓Mac在手，工作无忧。\n安装黑苹果是一个巨大的挑战，当然。只要有充分的付出和耐心。安装Mac到你的电脑上也不是一件难事。 同时也希望有一些同学也敢于尝试黑苹果。搞过黑苹果的人对计算机的底层会有更深入的了解（通常完美的驱动是要修改DSDT的）。我并不想自己一个人去搞自己喜欢的东西。多一个伙伴，那么生活将会更加精彩。</p></blockquote>',
+    time: 
+     { date: Sat Feb 22 2014 02:40:43 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:40' },
+    title: '关于黑苹果。。',
+    summary: '<blockquote><p>寒假花了一半的时间在弄黑苹果。不过成果上还是蛮成功的。显卡，声卡，网卡等都完美驱动。 过程总是坎坷的，但带来的回报却是巨大的。现在还依稀记得当时搞黑苹果时每天凌晨3点多睡' },
+  { name: 'andycall',
+    time: 
+     { date: Sat Feb 22 2014 02:16:10 GMT+0800 (HKT),
+       year: 2014,
+       month: '2-22',
+       day: '2014-2-22',
+       minute: '2014-2-22 2:16' },
+    title: '开篇辟地',
+    publish: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小站的人带来帮助。</p></blockquote>\n\n<h3>目前上线的还是简化一版。由于技术有限外加寒假后半段时间都去搞黑苹果去了。可能会比较粗糙。不过这只是暂时的。未来一段时间我还会继续更新这个博客。</h3>\n\n<h1>真正的挑战才刚刚开始。。</h1>',
+    comment: [],
+    _id: 530797eafaa93d7c3a3f58e0,
+    summary: '<blockquote><p>用了半个寒假，看了些书，弄了一下Node.js 用了简单300+的代码就搞定了这个博客的逻辑。不管怎么说，这也是我自己能向大家分享想法的一个平台。同时也希望能为前来光临小' } ] 2
+[90mGET / [32m200 [90m22ms - 5.4kb[0m
+[90mGET /stylesheets/screen.css [32m200 [90m4ms - 7.17kb[0m
+[90mGET /stylesheets/normalize.min.css [32m200 [90m4ms - 2.44kb[0m
+[90mGET /stylesheets/main.css [32m200 [90m2ms - 5.62kb[0m
+[90mGET /stylesheets/rgs.css [32m200 [90m4ms - 1.34kb[0m
+[90mGET /javascripts/Observer.js [32m200 [90m5ms - 2.03kb[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [32m200 [90m4ms - 19.03kb[0m
+[90mGET /javascripts/Factory.js [32m200 [90m3ms - 3.16kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%BC%80%E7%AF%87%E8%BE%9F%E5%9C%B0 [32m200 [90m17ms - 7.14kb[0m
+[90mGET /stylesheets/screen.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/normalize.min.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/main.css [36m304 [90m4ms[0m
+[90mGET /stylesheets/rgs.css [36m304 [90m5ms[0m
+[90mGET /javascripts/modernizr-2.6.2-respond-1.1.0.min.js [36m304 [90m4ms[0m
+[90mGET /andycall/2014-2-22/javascripts/Observer.js [32m200 [90m5ms - 4.52kb[0m
+[90mGET /andycall/2014-2-22/javascripts/Factory.js [32m200 [90m5ms - 4.52kb[0m
+[90mPOST /andycall/2014-2-22/%E5%BC%80%E7%AF%87%E8%BE%9F%E5%9C%B0 [36m302 [90m5ms - 68b[0m
+0
+[90mGET /login [32m200 [90m5ms - 8.64kb[0m
+Connected to database
+Authenticated
+[90mPOST /login [36m302 [90m16ms - 68b[0m
+0
+[90mGET /login [32m200 [90m4ms - 8.64kb[0m
+Connected to database
+Authenticated
+[90mGET /andycall/2014-2-22/%E5%BC%80%E7%AF%87%E8%BE%9F%E5%9C%B0 [32m200 [90m28ms - 7.14kb[0m
+[90mGET /andycall [36m302 [90m3ms - 68b[0m
+0
+[90mGET /login [36m304 [90m9ms[0m
+[90mGET /andycall [36m302 [90m2ms - 68b[0m
+0
+[90mGET /login [32m200 [90m7ms - 8.64kb[0m
+0
+[90mGET /login [32m200 [90m6ms - 8.64kb[0m

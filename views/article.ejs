@@ -1,0 +1,46 @@
+<% include header %>
+<!-- <div class="publish_section">
+	<p>
+		<span><a href="/edit/<%= doc.name %>/<%= doc.time.day %>/<%= doc.title %>" class="edit">Edit</a></span>
+		<span><a href="/delete/<%= doc.name %>/<%= doc.time.day %>/<%= doc.title %>" class="edit">Delete</a></span>
+	</p>
+  <p class="Blog_info">
+      Author : <a href="/<%= doc.name %>"><%= doc.name %></a>
+      Date : <span><%= doc.time.minute %></span>
+  </p>
+
+  <%- doc.publish %>
+
+ -->
+  
+<div class="main-container">
+  <div class="main wrapper clearfix">
+            	<article>
+                    <section class="post-section">
+                        <div class="post-header">
+                            <h2 class="post-title"><a href="/<%= doc.name %>/<%= doc.time.day %>/<%= doc.title %>"><%= doc.title %></a></h2>
+                            <div class="post-details">
+                                <i class="fa fa-user"></i>
+                                <a href="/<%= doc.name %>"><%= doc.name %> | </a>
+                                <i class="fa fa-calendar"></i>
+                                <%= doc.time.day %> | 
+                                <i class="fa fa-tag"></i>
+                                未分类 | 
+                                <i class="fa fa-comment-o"></i>
+                                <%= doc.comment.length  %>  评论
+                            </div>
+                        </div>
+                        <%- doc.publish %>
+                    </section>
+ 					<% include comment %>
+	
+                </article>
+               <% include aside %>
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+
+
+
+<% include footer %>

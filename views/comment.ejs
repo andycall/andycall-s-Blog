@@ -1,0 +1,71 @@
+
+<section class="comment-section">
+	<h3 id="comments"><%=  doc.comment.length %> Comments</h3>
+	<ul class="comment-list">
+		<li class="comment">
+			<% doc.comment.forEach(function(comment,index){ %>
+			<div class="comment-body">
+				<div class="comment-author">
+					<!-- <span class="reply">回复</span> -->
+					<img src="http://122.10.90.93:1500/images/user.png" alt="">
+					<span class="user"><%= comment.name %></span>
+					<span class="says">说道</span>
+				</div>
+				<div class="comment-date">
+					<span class="day"><%= comment.day %></span>
+				</div>
+				<div class="comment-content">
+					<%- comment.content %>
+				</div>
+			</div>
+			<% }); %>
+			<!-- <ul class="comment-children">
+				<li>
+					<div class="comment-body">
+						<div class="comment-author">
+							<span class="reply">回复</span>
+							<img src="http://122.10.90.93:1500/images/user.png" alt="">
+							<span class="user">DTC</span>
+							<span class="says">说道</span>
+						</div>
+						<div class="comment-date">
+							<span class="day">2014-2-6</span>
+							<span class='minute'>13:40</span>
+						</div>
+						<div class="comment-content">
+							helloworld!!!!!!!!!!!!!!!!!!
+						</div>
+					</div>
+				</li>
+			</ul> -->
+		</li>
+		<section id="respond">
+			<h3>评论内容</h3>
+			<p>我就不信你看完这篇没啥想法...</p>
+			<form method="post">
+				<div class="row">
+					<div class="col span_4">
+						<label for="name">昵称<span class="must">*<span></label>
+						<input type="text" id="name" name="name">	
+					</div>
+					<div class="col span_4">
+						<label for="email">邮箱<span class="must">*</span></label>
+						<input type="text" id="email" name="email">
+					</div>
+					<div class="col span_4 col_last">
+						<label for="website">网站</label>
+						<input type="text" id="website" name="website">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col span_12">
+						<textarea name="content" id="comment" rows="8"></textarea>
+					</div>
+				</div>
+				<input type="submit" name='submit' value="释放出你那出众的想法吧">
+			</form>
+		</section>
+	</ul>
+
+
+</section>

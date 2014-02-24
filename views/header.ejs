@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <!-- 最基本的 -->
+  <!-- ================================================== -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>AndyCall's blog</title>
+	<meta name="description" content="欢迎来到andycall的小站">
+	<meta name="author" content="AndyCall">
+ 
+  <!-- 手机要用滴！ -->
+  <!-- ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, mßaximum-scale=1">
+
+  <!-- CSS -->
+  <!-- ================================================== -->
+  	
+	<link rel="stylesheet" href="<%= site %>/stylesheets/screen.css">
+	<link rel="stylesheet" href="<%= site %>/stylesheets/normalize.min.css">
+    <link rel="stylesheet" href="<%= site %>/stylesheets/main.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="<%= site %>/stylesheets/rgs.css">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- 小图标
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+
+  <!-- 需要加载的脚本 -->
+  <script type="text/javascript" charset='utf-8' src="<%= site %>/KindEditor/kindeditor-min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="<%= site %>/KindEditor/zh_CN.js"></script>
+  <script type="text/javascript">
+   var editor;
+    KindEditor.ready(function(K) {
+      editor = K.create('textarea', {
+    
+      allowImageUpload : false,
+      items : [
+        'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic',
+        'underline', 'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright',
+        'insertorderedlist', 'insertunorderedlist', '|', 'emoticons', 'image', 'link']
+      });
+    });
+  </script>
+	
+</head>
+<body>
+	<!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <% include infoBar %>
+	 <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title"><a href="/"><%= title %></a></h1>
+                <nav>
+                    <ul>
+                        
+                    </ul>
+                </nav>
+                
+            </header>
+    </div>

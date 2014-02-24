@@ -1,0 +1,56 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #f0efe8;
+}
+
+a {
+  color: #00B7FF;
+}
+
+header{
+	padding-left: 200px;
+}
+nav{
+	float: left;
+	width: 10%;
+}
+nav li{
+	display: block;
+	list-style: none;
+}
+nav a:hover{
+	background-color:#ff0000;
+	color: #fff;
+	-webkit-transition:all .2s linear;
+}
+nav li a {
+	display: block;
+	padding:15px 25px 15px 25px;
+	text-decoration: none;
+}
+article{
+	float: left;
+	width: 90%;
+}
+
+
+article form{
+	padding: 10px 20px 10px 20px;
+}
+
+form section {
+	padding: 10px 0 10px 0;
+}
+
+form label{
+	width: 80px;
+	display: inline-block;
+}
+.publish_section{
+	padding: 10px 20px 10px;
+	margin: 10px 0;
+	background-color: #fff;
+}
+.edit{margin:3px;padding:2px 5px;border-radius:3px;background-color:#f3f3f3;color:#333;font-size:13px;}
+.edit:hover{text-decoration:none;background-color:#f00;color:#fff;-webkit-transition:color .2s linear;}
