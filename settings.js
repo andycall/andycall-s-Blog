@@ -4,5 +4,5 @@ module.exports = {
 	cookieSecret : "andycall",
 	username : 'andycall',
 	password: "dong1234",	
-	site : 'http://localhost:1500'
+	site : 'http://zeroling.com:1500'
 };
