@@ -1,7 +1,14 @@
-var Blog = {};
+	var Blog = {};
 
-(function(){
-	function ObserverList(){
+	function extend(obj,extension){
+		for(var key in obj){
+			extension[key] = obj[key];
+		}
+	}
+
+
+	//观察者小组
+	function ObserverList(){ 
 		this.observerList = [];
 	}
 
@@ -69,13 +76,9 @@ var Blog = {};
 			this.observerList.splice(index,1);
 		}
 	}
-
-	function extend(obj,extension){
-		for(var key in obj){
-			extension[key] = obj;
-		}
-	}
-
+	//属性扩展
+	
+	//被观察对象
 	function Subject(){
 		this.observers = new ObserverList();
 	}
@@ -87,17 +90,17 @@ var Blog = {};
 	Subject.prototype.RemoveObserver =  function(observer){
 		this.observers.RemoveIndexOf(this.observers.IndexOf(observer));
 	}
-
+	//当对象发生改变时所触发的函数
 	Subject.prototype.Notify = function(context){
 		var observerCount = this.observers.Count();
 		for(var i = 0; i < observerCount; i ++){
-			this.observers.Get(i).Update(context);
+			this.observers.Get(i).update(context);
 		}
 	}
-
+	//观察者
 	function Observer(){
-		this.Update = function(){}
+		this.update = function(){}
 	}
 
 
-})();
+

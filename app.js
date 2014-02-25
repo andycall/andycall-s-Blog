@@ -6,6 +6,7 @@
 var express = require('express');
 var routes = require('./routes');
 var user = require('./routes/user');
+var JS_partern = require('./routes/JS_partern');
 var http = require('http');
 var path = require('path');
 var MongoStore = require('connect-mongo')(express);
@@ -55,7 +56,7 @@ if ('development' == app.get('env')) {
 // app.get('/', routes.index);
 // app.get('/users', user.list);
 routes(app);
-
+JS_partern(app);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
