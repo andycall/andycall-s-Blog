@@ -14,6 +14,10 @@ Comment.prototype.save = function(callback){
 	var title = this.title;
 	var comment = this.comment;
 
+	if(comment === "" || typeof comment != 'string'){
+		return callback('invalid comment');
+	}
+
 	mongodb.open(function(err,db){
 		if(err){
 			return callback(err);

@@ -1,11 +1,6 @@
 	var Blog = {};
 
-	function extend(obj,extension){
-		for(var key in obj){
-			extension[key] = obj[key];
-		}
-	}
-
+	
 
 	//观察者小组
 	function ObserverList(){ 

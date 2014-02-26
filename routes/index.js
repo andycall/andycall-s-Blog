@@ -349,8 +349,8 @@ module.exports = function(app){
 //	app.post('/:name/:day/:title',checkLogin);
 	app.post('/:name/:day/:title',function(req,res){
 		var date = new Date();
-		var time = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' +  date.getDay() + ' ' + date.getHours() + ':' + (date.getMinutes() < 10 ? 0 + date.getMinutes() : date.getMinutes())
-		if(req.body.content == ""){
+		var time = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' +  date.getDate() + ' ' + date.getHours() + ':' + (date.getMinutes() < 10 ? 0 + date.getMinutes() : date.getMinutes())
+		if(req.body.content == "" && req.body.name == ''){
 			req.flash('error','empty message');
 			return res.redirect('back');
 		}

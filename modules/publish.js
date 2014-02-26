@@ -8,6 +8,9 @@ function Publish(name,title,publish){
 module.exports = Publish;
 
 
+
+
+
 Publish.prototype.save = function(callback){
 	var date = new Date();
 	var time = {
@@ -138,9 +141,32 @@ Publish.getOne = function(name,day,title,callback){
 	});
 }
 
+Publish.getTitle = function(name,callback){
+	mongodb.open(function(err,db){
+		if(err){
+			return callback(err);
+		}
+		db.collection('publishs',function(err,collection){
+			if(err){
+				mongodb.close();
+				return callback(err);
+			}
+			collection.findOne({
+				'name' : name
+			},function(err,doc){
+				mongodb.close();
+				if(err){
+					return callback(err);
+				}
+				callback(null,doc);
+			});
+		})
+	})
+}
+
 //return the mark format
 Publish.edit = function(name,day,title,callback){
-	console.log(name,day,title,callback);
+	//console.log(name,day,title,callback);
 	mongodb.open(function(err,db){
 		if(err){
 			return callback(err);
@@ -219,7 +245,7 @@ Publish.getTen = function(name,page,callback){
 					docs.forEach(function(doc){
 						doc.summary = doc.publish.substring(0,100);
 					})
-					console.log('publishs',docs,total);
+				//	console.log('publishs',docs,total);
 					callback(null,docs,total);
 				});
 			});

@@ -1,0 +1,47 @@
+<% include header %>
+
+<input type="checkbox" id="main" />
+<button id="add">Add</button>
+<div id="container">
+	
+</div>
+
+<script type="text/javascript" src="/javascripts/Subscribe.js"></script>
+
+
+<script type="text/javascript">
+var controlBox = document.getElementById('main');
+var container = document.getElementById('container');
+var addCheckbox = document.getElementById('add');
+	
+controlBox.addEventListener('click',function(){
+	pubsub.publish('checkboxed',[controlBox.checked]);
+})
+
+addCheckbox.addEventListener('click',function(){
+	addNewCheckbox();
+});
+pubsub.subscribe('checkboxed',refreshCheckbox);
+
+
+
+function addNewCheckbox(){
+	var checkbox = document.createElement('input');
+	checkbox.type = 'checkbox';
+	checkbox.classList.add('children')
+	container.appendChild(checkbox);
+}
+
+
+function refreshCheckbox(value){
+	console.log(value);
+	for (var i = 0; i < document.querySelectorAll('.children').length; i++) {
+		document.querySelectorAll('.children')[i].checked = value;
+	};
+}
+
+
+
+
+</script>
+
