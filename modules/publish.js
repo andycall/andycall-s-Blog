@@ -53,6 +53,48 @@ Publish.prototype.save = function(callback){
 		})
 	})
 }
+Publish.prototype.saveDraft = function(callback){
+	var date = new Date();
+	var time = {
+		date : date,
+		year : date.getFullYear(),
+		month :(date.getMonth() + 1) + '-' + date.getDate(),
+		day :  date.getFullYear() + '-' + (date.getMonth()  + 1) + '-' +  date.getDate(),
+		minute : date.getFullYear() + '-' + (date.getMonth() + 1) + '-' +  date.getDate() + ' ' + date.getHours() + ':' + (date.getMinutes() < 10 ? 0 + date.getMinutes() : date.getMinutes()  )
+ 	}
+
+	var publish = {
+			name : this.name,
+			time : time,
+			title : this.title,
+			publish : this.publish,
+			label : this.label
+	};
+	mongodb.open(function(err,db){
+		if(err){
+			return callback(err);
+		}
+
+		db.collection('drafts',function(err,collection){
+			if(err){
+				mongodb.close();
+				return callback(err);
+			}
+			collection.insert(publish,{
+				safe : true
+			},function(err,publish){
+				mongodb.close();
+				if(err){
+					return callback(err);
+				}
+				return callback(null,publish[0]);
+			});
+		});
+
+	})
+}
+
+
 
 Publish.update = function(name,day,title,publish,callback){
 	mongodb.open(function(err,db){

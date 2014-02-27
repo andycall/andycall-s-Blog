@@ -2099,7 +2099,7 @@ form section{
 	margin-right: auto;
 	width: 65.7%;
 }
-form section input{
+form section input[type="text"]{
 	width: 97.25892%;
 }
 form > input {
@@ -2192,9 +2192,7 @@ select {
 @media (max-width:550px) {
 	.form-group {
 	padding-left:0
-}
-}input[type="checkbox"] {
-	display:none
+	}
 }
 .checkbox {
 	-webkit-box-sizing:border-box;

@@ -243,17 +243,31 @@ module.exports = function(app){
 		var title = req.body.title;
 		var content = req.body.publish;
 		var label = req.body.label;
-
+		var saveDraft = req.body.saveDraft;
+		saveDraft = saveDraft || 'off';
+		console.log(saveDraft);
 		var newPublish = new Publish(name,title,content,label);
-		console.log(newPublish);
-		newPublish.save(function(err,content){
-			if(err){
-				req.flash('error',err);
-				return res.redirect('/publish');
-			}
-			req.flash('success','the page had published successfully!');
-			res.redirect('/');
-		});
+		// console.log(newPublish);
+		if(saveDraft == "off"){
+			newPublish.save(function(err,content){
+				if(err){
+					req.flash('error',err);
+					return res.redirect('/publish');
+				}
+				req.flash('success','the page had published successfully!');
+				res.redirect('/andycall');
+			});
+		}
+		else{
+			newPublish.saveDraft(function(err,content){
+				if(err){
+					req.flash('error',err);
+					return res.redirect('/publish');
+				}
+				req.flash('success','the draft had saved');
+				res.redirect('/andycall');
+			});
+		}
 
 	});
 	app.get('/upload',checkLogin);
