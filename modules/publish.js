@@ -1,9 +1,10 @@
 var mongodb = require('./db.js');
 
-function Publish(name,title,publish){
+function Publish(name,title,publish,label){
 	this.name = name;
 	this.title = title;
 	this.publish = publish;
+	this.label = label;
 }
 module.exports = Publish;
 
@@ -26,6 +27,7 @@ Publish.prototype.save = function(callback){
 			time : time,
 			title : this.title,
 			publish : this.publish,
+			label : this.label,
 			comment : []
 	};
 	mongodb.open(function(err,db){
@@ -242,6 +244,7 @@ Publish.getTen = function(name,page,callback){
 					if(err){
 						return callback(err);
 					}
+					// console.log(docs);
 					docs.forEach(function(doc){
 						doc.summary = doc.publish.substring(0,100);
 					})

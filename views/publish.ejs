@@ -1,14 +1,26 @@
 <% include admin_head %>
-<form method="post">
+<form method="post" onsubmit="getKindeditor()">
 	<section>
 		title : 
-		<input type="text" name="title" >
+		<input type="text" name="title" required="required">
 	</section>
-	<section><textarea name="post" rows="20" cols="100"></textarea></section>
-	<input type="submit" name='submit' value="POST">
+	<section>
+		Label<input type="text" name="label" id="label" required="required">
+	</section>
+	<section>
+		<textarea name="publish" rows="20" cols="100" id="publish"></textarea>
+	</section>
+	<input type="submit" name='submit' value="POST" id="submit">
 </form>
 
 
 
 
 <% include admin_foot %>
+
+<script type="text/javascript">
+function getKindeditor(){
+	var context = editor.html();
+	document.getElementById('publish').innerHTML = context;
+}
+</script>

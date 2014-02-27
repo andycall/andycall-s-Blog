@@ -241,10 +241,11 @@ module.exports = function(app){
 	app.post('/publish',function(req,res){
 		var name = req.session.user.username;
 		var title = req.body.title;
-		var content = req.body.post;
+		var content = req.body.publish;
+		var label = req.body.label;
 
-		var newPublish = new Publish(name,title,content);
-
+		var newPublish = new Publish(name,title,content,label);
+		console.log(newPublish);
 		newPublish.save(function(err,content){
 			if(err){
 				req.flash('error',err);
