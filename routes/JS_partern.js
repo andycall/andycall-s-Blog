@@ -49,25 +49,25 @@ module.exports = function(app){
 
 
 	app.get('/AjaxModule',function(req,res){
-		res.render('AjaxModule',{
-			title : "Module Example",
-			user : req.session.user,
-			success : req.flash('success').toString(),
-			error : req.flash('error').toString(),
-			site : settings.site
-		});
+			res.render('AjaxModule',{
+				title : "Module Example",
+				user : req.session.user,
+				success : req.flash('success').toString(),
+				error : req.flash('error').toString(),
+				site : settings.site
+			});
 	});
 
 	app.post('/AjaxModule',function(req,res){
-		var tage = req.query.name;
-		if(tage){
-			Publish.getTitle(tage,function(err,doc){
-				if(err){
-					req.flash('error',err);
-				}
-				return res.send({doc: doc });
-			})
-		}
+		var tage = req.body.tags;
+		console.log(tage);
+		// if(tage){
+		// 	res.send({items: tage});
+		// }
+		// else{
+		// 	res.send({items: "error"});
+		// }
+		res.send(req.body);
 	})
 
 }

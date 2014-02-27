@@ -1,6 +1,4 @@
-var pubsub = {};
-
-(function(pub){
+function pubSub(pub){
 	var topics = {};
 	pub.publish = function(topic,args){
 		if(topics[topic]){
@@ -43,4 +41,5 @@ var pubsub = {};
 			}
 		}
 	}
-})(pubsub);
+	return pub;
+}

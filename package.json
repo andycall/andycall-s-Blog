@@ -12,6 +12,7 @@
     "connect-mongo" : "*",
     "connect-flash" : "*",
     "markdown" : "*",
-    "ws" : "0.4.0"
+    "ws" : "0.4.0",
+    "express-ajax" : "*"
   }
 }

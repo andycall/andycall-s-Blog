@@ -35,22 +35,7 @@
 
 
   <!-- 需要加载的脚本 -->
-  <script type="text/javascript" charset='utf-8' src="<%= site %>/KIndEditor/kindeditor-min.js"></script>
-  <script type="text/javascript" charset="utf-8" src="<%= site %>/KIndEditor/zh_CN.js"></script>
-  <script type="text/javascript">
-   var editor;
-    KindEditor.ready(function(K) {
-      editor = K.create('textarea', {
-    
-      allowImageUpload : false,
-      items : [
-        'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic',
-        'underline', 'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright',
-        'insertorderedlist', 'insertunorderedlist', '|', 'emoticons', 'image', 'link']
-      });
-    });
-  </script>
-  <script type="text/javascript" src="javascripts/common.js"></script>
+  <script type="text/javascript" src="<%= site %>/javascripts/common.js"></script>
 	
 </head>
 <body>
