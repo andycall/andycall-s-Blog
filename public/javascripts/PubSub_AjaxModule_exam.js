@@ -5,7 +5,7 @@ $ = pubSub($);
 
 
 
-$.subscribe('/search/tags',function(tags){
+$.subscribe('/search/tags',function(e,tags){
 	$('#searchResults').html('Searched for:' + tags + "");
 });
 
@@ -26,16 +26,14 @@ $('#flickSearch').submit(function(e){
 });
 
 
-$.subscribe('/search/tags',function(tags){
-	$.ajax({
-		url : "/AjaxModule",
-		type : "POST",
-		data : {
-			"tags": tags
-		},
-		success : 	function(data,err){
-			console.log(data);
+$.subscribe('/search/tags',function(e,tags){
+	$.getJSON('http://localhost:1500/AjaxModule',
+		{tags : tags},
+		function(data){
+			if(!data.items.length){
+				return;
 		}
+		$.publish('/search/resultSet',data.items);
 	})
 	
 })

@@ -49,6 +49,12 @@ module.exports = function(app){
 
 
 	app.get('/AjaxModule',function(req,res){
+		var tage = req.query.tags;
+		console.log(tage);
+		if(tage){
+			res.send({items: tage});
+		}
+		else{
 			res.render('AjaxModule',{
 				title : "Module Example",
 				user : req.session.user,
@@ -56,18 +62,15 @@ module.exports = function(app){
 				error : req.flash('error').toString(),
 				site : settings.site
 			});
+		}
 	});
 
 	app.post('/AjaxModule',function(req,res){
-		var tage = req.body.tags;
+		var tage = req.query.tags;
 		console.log(tage);
-		// if(tage){
-		// 	res.send({items: tage});
-		// }
-		// else{
-		// 	res.send({items: "error"});
-		// }
-		res.send(req.body);
+		if(tage){
+			res.send({items: tage});
+		}
 	})
 
 }
