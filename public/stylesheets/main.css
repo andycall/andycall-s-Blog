@@ -369,3 +369,10 @@ nav a:hover {
         page-break-after: avoid;
     }
 }
+a[href="http://tongji.baidu.com/hm-web/welcome/ico?s=f7801fad07862b1d5327ff8cb2454cdc"] {
+    display: none;
+}
+
+
+
+
