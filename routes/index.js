@@ -148,28 +148,6 @@ module.exports = function(app){
 		})
 	});
 
-	app.get('/andycall',checkLogin);
-	app.get('/andycall',function(req,res){
-		var page = req.query.page ? parseInt(req.query.page) : 1;
-		Publish.getTen(null,page,function(err,docs,total){
-			if(err){
-				docs = [];
-			}
-			res.render('background',{
-				title : "AndyCall's blog",
-				docs : docs,
-				page : page,
-				isFirstPage : (page - 1) == 0,
-				isLastPage : ((page -1) * 10 + docs.length) == total,
-				user : req.session.user,
-				success : req.flash('success').toString(),
-				error : req.flash('error').toString(),
-				site : settings.site
-			});
-		});
-
-	});
-
 	app.get('/register',checkNotLogin);
 	app.get('/register',function(req,res){
 		res.render('register',{
@@ -424,7 +402,7 @@ module.exports = function(app){
 				res.redirect('back');
 			}
 			req.flash('success','update success!');
-			res.redirect(url);
+			res.redirect('/andycall');
 		});
 	});
 

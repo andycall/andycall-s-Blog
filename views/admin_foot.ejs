@@ -1,5 +1,7 @@
 </body>
 <script type="text/javascript" src="javascripts/Observer.js"></script>
+<script type="text/javascript" src="javascripts/common.js"></script>
+<script type="text/javascript" src="javascripts/settings.js"></script>
 <script type="text/javascript">
 var usermenu = document.getElementById('usermenu');
 usermenu.onclick = function(){
@@ -10,6 +12,13 @@ usermenu.onclick = function(){
 		usermenu.children[1].style.display =  'none';		
 	}
 }
+
+convertToArray(document.querySelectorAll('.DeletePost')).forEach(function(value){
+	console.log(value);
+	value.addEventListener('click',function(e){
+	e.preventDefault();
+	});
+});
 
 </script>
 </html>
