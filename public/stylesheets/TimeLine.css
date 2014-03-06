@@ -1,0 +1,137 @@
+.main{
+	width: 90%;
+	padding: 0 1.875em 3.875em 1.875em;
+}
+.timeLine{
+	position: relative;
+	margin: 30px 0 0 0;
+	padding: 0;
+}
+
+.timeLine:before{
+	content:  ""; 
+	position: absolute;
+	width: 10px;
+	top: 0;
+	bottom: 0;
+	background: #afdcf8;
+	left: 20%;
+	margin-left: -10px;
+}
+
+.time, .circle {
+	position: absolute;
+}
+.time { 
+	width: 15%;
+}
+.time > span:first-child{
+	display: block;
+	color: #bdd0db;
+	font-size: 0.9em;
+	text-align: right;
+}
+.timeLine > li:nth-child(odd) .time span:last-child{
+	color: #6cbfee;
+}
+.time span:last-child{
+	font-size: 2.9em;
+	display: block;
+	margin-top: 5px;	
+	text-align: right;
+}
+.timeLine > li:nth-child(even) .time span:last-child{
+	color: #3594cb;
+}
+@media screen and (max-width: 65.375em){
+	.time span:last-child{
+		font-size: 1.5em;
+	}
+}
+
+.time{
+	left: 0;
+}
+
+.circle { 
+	width: 40px;
+	height: 40px;
+	background: #46a4da;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	box-shadow: 0 0 0 8px #afdcf8;
+	left:20%;
+	margin: 0 0 0 -25px;
+	text-align: center;
+	line-height: 40px;
+}
+
+
+.timeLine > li:nth-child(odd) .content{
+	background: #6cbfee;
+}
+.content {
+	position: relative;
+	padding: 2em;
+	border-radius: 4px;
+	margin-left: 25%;
+	background: #3594cb;
+}
+
+.content:after{
+	position: absolute;
+	left: -20px;
+	top: 5px;
+	content: "";
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-right-color: #6cbfee;
+}
+
+.content h2, .content p{
+	color: #fff;
+}
+
+.content h2{
+	margin-top: 0;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgba(255,255,255,0.6);
+}
+
+@media screen and (max-width: 47.2em){
+	.time{
+		display: block;
+		width: 100%;
+		position: relative;
+	}
+	.time span{
+		text-align: left !important;
+	}
+	.circle{
+		display: block;
+		float: right;
+		text-align: center;
+		position: relative;
+		line-height: 40px;
+		margin: -40px 0 0 0;
+		left: 0;
+	}
+	.timeLine:before{
+		width: 0px;
+	}
+
+	.content{
+		margin: 15px 0 0 0;
+
+	}
+	.content:after{
+		left: 20px;
+		top: -20px;
+		border-right-color: transparent;
+		border-bottom-color: #6cbfee;
+	}
+}
+
+

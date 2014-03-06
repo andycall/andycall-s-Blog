@@ -9,12 +9,12 @@ var fs = require('fs');
 
 module.exports = function(app){
 	function checkLogin(req,res,next){
-	if(!req.session.user){
-		req.flash('error','not login in ');
-		return res.redirect('/login')
-	}
-	next();
-}	
+		if(!req.session.user){
+			req.flash('error','not login in ');
+			return res.redirect('/login')
+		}
+		next();
+	}	
 	app.get('/andycall',checkLogin);
 	app.get('/andycall',function(req,res){
 		var page = req.query.page ? parseInt(req.query.page) : 1;

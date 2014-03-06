@@ -1,0 +1,32 @@
+<% include header %>
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+                <article>
+                    <% docs.forEach(function(doc,index){ %>
+                    <section class="post-section">
+                        <div class="post-header">
+                            <h2 class="post-title"><a href="/<%= doc.name %>/<%= doc.time.day %>/<%= doc.title %>"><%= doc.title %></a></h2>
+                            <div class="post-details">
+                                <i class="fa fa-user"></i>
+                                <a href="/<%= doc.name %>"><%= doc.name %> | </a>
+                                <i class="fa fa-calendar"></i>
+                                <%= doc.time.day %> | 
+                                <i class="fa fa-tag"></i>
+                                <%= doc.label %> | 
+                                <i class="fa fa-comment-o"></i>
+                                <%= doc.comment.length %> 评论
+                            </div>
+                        </div>
+                        <%- doc.summary %>...
+                    </section>
+                    
+
+                    <% }); %>
+                    <% include page %>
+                </article>
+                <% include aside %>
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+<% include footer %>

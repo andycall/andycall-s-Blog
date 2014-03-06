@@ -1,32 +1,67 @@
 <% include header %>
-        <div class="main-container">
-            <div class="main wrapper clearfix">
-                <article>
-                    <% docs.forEach(function(doc,index){ %>
-                    <section class="post-section">
-                        <div class="post-header">
-                            <h2 class="post-title"><a href="/<%= doc.name %>/<%= doc.time.day %>/<%= doc.title %>"><%= doc.title %></a></h2>
-                            <div class="post-details">
-                                <i class="fa fa-user"></i>
-                                <a href="/<%= doc.name %>"><%= doc.name %> | </a>
-                                <i class="fa fa-calendar"></i>
-                                <%= doc.time.day %> | 
-                                <i class="fa fa-tag"></i>
-                                <%= doc.label %> | 
-                                <i class="fa fa-comment-o"></i>
-                                <%= doc.comment.length %> 评论
-                            </div>
-                        </div>
-                        <%- doc.summary %>...
-                    </section>
-                    
+	<main class="main">
+		<ul class="timeLine">
+		<% docs.forEach(function(doc,index){ %>
+			<li class="article">
+				<div class="time">
+					<span class="art_day"><%= doc.time.day %></span>
+					<span><%= doc.time.minute %></span>
+				</div>
+				<div class="circle">
+					<i class="fa fa-calendar"></i>
+				</div>
+				<div class="content" data-comment="<%= JSON.stringify(doc.comment) %>">
+					<i class="fa fa-arrow-circle-o-right turn_right" data-index="<%= index %>"></i>
+					<h2 class="art_title"><%= doc.title %></h2>
+					<p class="art_publish"><%= doc.publish %></p>
+				</div>
+			</li>
+		<%	}) %> 
+		</ul>
 
-                    <% }); %>
-                    <% include page %>
-                </article>
-                <% include aside %>
+		<aside class="aside">
+			<i class="fa fa-arrow-circle-o-left turn_left"></i>
+			<div class="aside_wrapper">
+				<div class="aside_content"></div>
+				<div class="comment">
+						<ul class="comment-list">
+							
+							<section id="respond">
+								<h3>评论内容</h3>
+								<p>我就不信你看完这篇没啥想法...</p>
+								<form method="post" id="comment_box">
+									<div class="row">
+										<div class="col span_4">
+											<label for="name">昵称<span class="must">*<span></label>
+											<input type="text" id="name" name="name" required="required">	
+										</div>
+										<div class="col span_4">
+											<label for="email">邮箱<span class="must">*</span></label>
+											<input type="email" id="email" name="email" required="required">
+										</div>
+										<div class="col span_4 col_last">
+											<label for="website">网站</label>
+											<input type="text" id="website" name="website">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col span_12">
+											<textarea name="content" id="comment" rows="8" required="required"></textarea>
+										</div>
+									</div>
+									<input type="hidden" name="username" value="andycall">
+									<input type="hidden" name="article_date" value="">
+									<input type="hidden" name="article_title" value="">
+									<input type="submit" name='submit' value="释放出你那出众的想法吧">
+								</form>
+							</section>
+						</ul>
+				</div>
 
-            </div> <!-- #main -->
-        </div> <!-- #main-container -->
+			</div>
+		</aside>
+	</main>
+
+
 
 <% include footer %>

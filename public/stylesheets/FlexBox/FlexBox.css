@@ -1,0 +1,14 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333333; }
+
+#flexBox {
+  display: -webkit-box;
+  background: yellow;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -ms-box-orient: horizontal;
+  box-orient: horizontal; }
+
+#flexBox p {
+  background: blue; }

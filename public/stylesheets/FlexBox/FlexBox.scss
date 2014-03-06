@@ -1,0 +1,27 @@
+$font-stack: Helvetica,sans-serif;
+$primal-color :#333;
+
+
+@mixin box-orient($value){
+	-webkit-box-orient: $value;
+	-moz-box-orient: $value;
+	-ms-box-orient: $value;
+	box-orient: $value;
+}
+
+body{
+	font: 100% $font-stack;
+	color: $primal-color;
+}
+
+#flexBox {
+	display: -webkit-box;
+	background: yellow;
+	@include box-orient(horizontal);
+}
+
+#flexBox{
+	p{
+		background: blue;
+	}
+}

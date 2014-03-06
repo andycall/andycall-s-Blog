@@ -8,6 +8,7 @@ var routes = require('./routes');
 var user = require('./routes/user');
 var JS_partern = require('./routes/JS_partern');
 var Background = require('./routes/Background');
+var TimeLine = require('./routes/TimeLine');
 var http = require('http');
 var path = require('path');
 var MongoStore = require('connect-mongo')(express);
@@ -43,22 +44,23 @@ app.use(express.session({
 	})
 }));
 
-app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
-
-app.use(function(req,res){
-	res.render('404');
-})
 // development only
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
-}
+}	
+
+
+app.use(app.router);
+
 
 // app.get('/', routes.index);
 // app.get('/users', user.list);
 routes(app);
 JS_partern(app);
 Background(app);
+TimeLine(app);
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

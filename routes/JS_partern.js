@@ -71,6 +71,17 @@ module.exports = function(app){
 		if(tage){
 			res.send({items: tage});
 		}
-	})
+	});
+
+
+	app.get('/test',function(req,res){
+		res.render('test',{
+			title : "Module Example",
+				user : req.session.user,
+				success : req.flash('success').toString(),
+				error : req.flash('error').toString(),
+				site : settings.site
+		});
+	});
 
 }

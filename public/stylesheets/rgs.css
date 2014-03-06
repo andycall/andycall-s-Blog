@@ -6,10 +6,6 @@
 /* MAIN CONTAINER */
 .container	{ margin: 0 auto;  position: relative; }
 
-.container {
-    max-width: 880px; 
-} 
-
 .row {
 	position: relative;
 }

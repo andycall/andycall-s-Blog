@@ -19,7 +19,7 @@ Publish.prototype.save = function(callback){
 		year : date.getFullYear(),
 		month :(date.getMonth() + 1) + '-' + date.getDate(),
 		day :  date.getFullYear() + '-' + (date.getMonth()  + 1) + '-' +  date.getDate(),
-		minute : date.getFullYear() + '-' + (date.getMonth() + 1) + '-' +  date.getDate() + ' ' + date.getHours() + ':' + (date.getMinutes() < 10 ? 0 + date.getMinutes() : date.getMinutes()  )
+		minute : date.getHours() + ':' + (date.getMinutes() < 10 ? 0 + date.getMinutes() : date.getMinutes()  )
  	}
 
 	var publish = {
@@ -30,6 +30,9 @@ Publish.prototype.save = function(callback){
 			label : this.label,
 			comment : []
 	};
+
+
+
 	mongodb.open(function(err,db){
 		if(err){
 			return callback(err);

@@ -41,18 +41,7 @@ module.exports = function(app){
 		var name = req.query.name;
 		var time = req.query.time;
 		var title = req.query.title;
-		// Publish.getAll(null,function(err,docs){
-		// 	if(err){
-		// 		docs = [];
-		// 	}
-		// 	res.render('index',{
-		// 		title : "Blog",
-		// 		user : req.session.user,
-		// 		success : req.flash('success'),
-		// 		error : req.flash('error'),
-		// 		docs : docs
-		// 	});
-		// });
+		var user = req.session.user || "andycall";
 		Publish.getTen(null,page,function(err,docs,total){
 			if(err){
 				docs = [];
@@ -63,20 +52,39 @@ module.exports = function(app){
 				page : page,
 				isFirstPage : (page - 1) == 0,
 				isLastPage : ((page -1) * 10 + docs.length) == total,
-				user : req.session.user,
+				user : user,
 				success : req.flash('success').toString(),
 				error : req.flash('error').toString(),
 				site: settings.site		
 			});
 		});
+	});
 
+	app.post('/',function(req,res){
+		var date = new Date();
+		var name = req.body.username || 'andycall';
+		var time = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' +  date.getDate() + ' ' + date.getHours() + ':' + (date.getMinutes() < 10 ? ("0" + date.getMinutes()) : date.getMinutes())
+		if(req.body.content == "" && req.body.name == ''){
+			req.flash('error','empty message');
+			return res.redirect('back');
+		}
+		var comment = {
+			name : req.body.name,
+			day : time,
+			email : req.body.email,
+			content  : req.body.content
+		};
+		var newComment = new Comment(name,req.body.article_date,req.body.article_title,comment);
+		console.log(newComment);
+		newComment.save(function(err){
+			if(err){
+				req.flash('error',err);
+				return res.redirect('back');
+			}
+			req.flash('success','leave message success!');
+			res.redirect('back');
+		});
 
-		// res.render('index',{
-		// 	title : "Blog",
-		// 	user : req.session.user,
-		// 	success : req.flash('success'),
-		// 	error : req.flash('error')
-		// });
 	});
 /*	app.get('/test',function(req,res){
 			var page = req.query.page ? parseInt(req.query.page) : 1;
@@ -333,7 +341,7 @@ module.exports = function(app){
 				title : "AndyCall's blog",
 				doc : publish, // the page content
 				user : req.session.user, // the user
-				success : req.flash('success'	).toString(), // success log
+				success : req.flash('success').toString(), // success log
 				error : req.flash('error').toString(), // error log,
 				site : settings.site
 			});
@@ -425,9 +433,4 @@ module.exports = function(app){
 			res.redirect('/andycall');
 		});
 	});
-
-
-
-
-	
 }
