@@ -87,7 +87,7 @@ module.exports = function(app){
 
 	});
 	app.get('/Develope',function(req,res){
-		var user = req.session.user.username || "andycall";
+		var user = "andycall";
 		var page = req.query.page ? parseInt(req.query.page) : 1;
 		 Publish.classify(user,"Develope",page,function(err,docs,total){
 		 	if(err){
