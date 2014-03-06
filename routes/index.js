@@ -88,7 +88,8 @@ module.exports = function(app){
 	});
 	app.get('/Develope',function(req,res){
 		var user = req.session.user.username || "andycall";
-		 Publish.classify(user,"Develope",function(err,docs){
+		var page = req.query.page ? parseInt(req.query.page) : 1;
+		 Publish.classify(user,"Develope",page,function(err,docs,total){
 		 	if(err){
 				docs = [];
 			}
@@ -98,6 +99,8 @@ module.exports = function(app){
 		 		title : "AndyCall's blog",
 				docs : docs,
 				user : user,
+				isFirstPage : (page - 1) == 0,
+				isLastPage : ((page -1) * 10 + docs.length) == total,
 				success : req.flash('success').toString(),
 				error : req.flash('error').toString(),
 				site: settings.site	
@@ -227,6 +230,7 @@ module.exports = function(app){
 				res.redirect('/andycall');
 			});
 		}
+
 		else{
 			newPublish.saveDraft(function(err,content){
 				if(err){
