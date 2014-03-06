@@ -19,7 +19,7 @@ Publish.prototype.save = function(callback){
 		year : date.getFullYear(),
 		month :(date.getMonth() + 1) + '-' + date.getDate(),
 		day :  date.getFullYear() + '-' + (date.getMonth()  + 1) + '-' +  date.getDate(),
-		minute : date.getHours() + ':' + (date.getMinutes() < 10 ? 0 + date.getMinutes() : date.getMinutes()  )
+		minute : date.getHours() + ':' + (date.getMinutes() < 10 ? (0 + date.getMinutes()) : date.getMinutes()  )
  	}
 
 	var publish = {
@@ -37,7 +37,7 @@ Publish.prototype.save = function(callback){
 		if(err){
 			return callback(err);
 		}
-
+		console.log("mongodb open success");
 		db.collection('publishs',function(err,collection){
 			if(err){
 				mongodb.close();
@@ -51,6 +51,7 @@ Publish.prototype.save = function(callback){
 					return callback(err);
 				}
 				mongodb.close();
+				console.log("mongodb closed");
 				return callback(null,publish[0]);
 			})
 		})
@@ -77,7 +78,7 @@ Publish.prototype.saveDraft = function(callback){
 		if(err){
 			return callback(err);
 		}
-
+		console.log("mongodb open success");
 		db.collection('drafts',function(err,collection){
 			if(err){
 				mongodb.close();
@@ -90,6 +91,7 @@ Publish.prototype.saveDraft = function(callback){
 				if(err){
 					return callback(err);
 				}
+				console.log("mongodb closed");
 				return callback(null,publish[0]);
 			});
 		});
@@ -104,6 +106,7 @@ Publish.update = function(name,day,title,publish,callback){
 		if(err){
 			return callback(err);
 		}
+		console.log("mongodb open success");
 		db.collection('publishs',function(err,collection){
 			if(err){
 				mongodb.close();
@@ -127,16 +130,49 @@ Publish.update = function(name,day,title,publish,callback){
 };
 
 
+Publish.classify = function(name,label,callback){
+	mongodb.open(function(err,db){
+		if(err){
+			return callback(err);
+		}
+		console.log("mongodb open success");
+		db.collection('publishs',function(err,collection){
+			if(err){
+				mongodb.close();
+				return callback(err);
+			}
+			var query = {};
+			if(name){
+				query.name =name;
+			}
+			if(query){
+				query.label = label;
+			}
+			collection.find(query).sort({time : -1}).toArray(function(err,docs){
+				mongodb.close();
+				if(err){
+					return callback(err);
+				}
+				callback(null,docs);
+
+
+			})
+		});
+	});
+}
+
 
 
 Publish.getAll = function(name,callback){
 	if(typeof name == 'undefined'){
 		console.log('the name is undefined');
 	}
+	
 	mongodb.open(function(err,db){
 		if(err){
 			return callback(err);
 		}
+		console.log("mongodb open success");
 		db.collection('publishs',function(err,collection){
 			if(err){
 				mongodb.close();
@@ -164,6 +200,7 @@ Publish.getOne = function(name,day,title,callback){
 		if(err){
 			return callback(err);
 		}
+		console.log("mongodb open success");
 		db.collection('publishs',function(err,collection){
 			if(err){
 				mongodb.close();
@@ -193,6 +230,7 @@ Publish.getTitle = function(name,callback){
 		if(err){
 			return callback(err);
 		}
+		console.log("mongodb open success");
 		db.collection('publishs',function(err,collection){
 			if(err){
 				mongodb.close();
@@ -218,6 +256,7 @@ Publish.edit = function(name,day,title,callback){
 		if(err){
 			return callback(err);
 		}
+		console.log("mongodb open success");
 		db.collection('publishs',function(err,collection){
 			if(err){
 				mongodb.close();
@@ -243,11 +282,13 @@ Publish.remove = function(name,day,title,callback){
 		if(err){
 			return callback(err);
 		}
+		console.log("mongodb open success");
 		db.collection('publishs',function(err,collection){
 			if(err){
 				mongodb.close();
 				return callback(err);
 			}
+			
 			collection.remove({
 				"name" : name,
 				"time.day" : day,
@@ -271,6 +312,7 @@ Publish.getTen = function(name,page,callback){
 		if(err){
 			return callback(err);
 		}
+		console.log("mongodb open success");
 		db.collection('publishs',function(err,collection){
 			if(err){
 				mongodb.close();

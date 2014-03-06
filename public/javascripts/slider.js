@@ -57,7 +57,7 @@
 		var publish = [];//文章缓存数组
 		var commentFrag = document.createDocumentFragment();//评论块缓存
 		var commentList = document.querySelector('.comment-list');
-
+		var commentLength = document.getElementById('comments');
 		convertToArray(document.querySelectorAll('.article')).forEach(function(value){
 			var object = {
 				time : value.getElementsByClassName('art_day')[0].innerHTML,
@@ -88,7 +88,8 @@
 				while(commentList.firstChild.nodeType === 3 || commentList.firstChild.getAttribute('class')== 'comment' ){
 					commentList.removeChild(commentList.firstChild);
 				}
-				console.log(commentFrag.firstChild);
+				console.log(comment[index].length);
+				commentLength.innerHTML = comment[index].length + "  Comments";
 				commentList.insertBefore(commentFrag,commentList.firstChild);
 				nowScroll = scrollY();
 				window.scroll(0,0);		
@@ -104,6 +105,7 @@
 	}
 
 	init();
+
 
 	// function copyNode(node,type){
 	// 	var cache = [];

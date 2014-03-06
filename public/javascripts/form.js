@@ -2,9 +2,9 @@
 	var comment_box = document.getElementById('comment_box');
 	comment_box.addEventListener('submit',function(e){
 		e.preventDefault();
-		var name = readCookie('name') || document.getElementById('name').value;
-		var email = readCookie('email') || document.getElementById('email').value;
-		var website = readCookie('website') || document.getElementById('website').value;
+		var name = document.getElementById('name').value || readCookie('name') || "" ;
+		var email = document.getElementById('email').value || readCookie('email') || "";
+		var website =  document.getElementById('website').value || readCookie('website') || "";
 		writeCookie('name',name,30);
 		writeCookie('email',email,30);
 		writeCookie('website',website,30);

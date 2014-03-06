@@ -41,7 +41,7 @@ module.exports = function(app){
 		var name = req.query.name;
 		var time = req.query.time;
 		var title = req.query.title;
-		var user = req.session.user || "andycall";
+		var user = req.session.username || "andycall";
 		Publish.getTen(null,page,function(err,docs,total){
 			if(err){
 				docs = [];
@@ -75,7 +75,7 @@ module.exports = function(app){
 			content  : req.body.content
 		};
 		var newComment = new Comment(name,req.body.article_date,req.body.article_title,comment);
-		console.log(newComment);
+		// console.log(newComment);
 		newComment.save(function(err){
 			if(err){
 				req.flash('error',err);
@@ -86,41 +86,24 @@ module.exports = function(app){
 		});
 
 	});
-/*	app.get('/test',function(req,res){
-			var page = req.query.page ? parseInt(req.query.page) : 1;
-		var name = req.query.name;
-		var time = req.query.time;
-		var title = req.query.title;
-		// Publish.getAll(null,function(err,docs){
-		// 	if(err){
-		// 		docs = [];
-		// 	}
-		// 	res.render('index',{
-		// 		title : "Blog",
-		// 		user : req.session.user,
-		// 		success : req.flash('success'),
-		// 		error : req.flash('error'),
-		// 		docs : docs
-		// 	});
-		// });
-		Publish.getTen(null,page,function(err,docs,total){
-			if(err){var page = req.query.page ? parseInt(req.query.page) : 1;
+	app.get('/Develope',function(req,res){
+		var user = req.session.user.username || "andycall";
+		 Publish.classify(user,"Develope",function(err,docs){
+		 	if(err){
 				docs = [];
 			}
-			res.render('Test2',{
-				title : "Andycall's blog",
+			docs = docs || [];
+			// console.log(docs);
+		 	res.render("index",{
+		 		title : "AndyCall's blog",
 				docs : docs,
-				page : page,
-				isFirstPage : (page - 1) == 0,
-				isLastPage : ((page -1) * 10 + docs.length) == total,
-				user : req.session.user,
+				user : user,
 				success : req.flash('success').toString(),
-				error : req.flash('error').toString()
-			});
-		});
-	})
-
-*/
+				error : req.flash('error').toString(),
+				site: settings.site	
+		 	})
+		 })
+	});
 	app.get('/login',checkNotLogin);
 	app.get('/login',function(req,res){
 		// console.log(Object.prototype.toString.call(req.flash('success')));
@@ -131,7 +114,7 @@ module.exports = function(app){
 				error : req.flash('error'),
 				site : settings.site
 			});
-		console.log(req.flash('success').length);
+		// console.log(req.flash('success').length);
 
 	});
 	app.post('login',checkNotLogin);
@@ -144,7 +127,7 @@ module.exports = function(app){
 				req.flash('error','the username is not exist');
 				return res.redirect('/login');
 			}
-			console.log(user);
+			// console.log(user);
 			if(user.password != password){
 				req.flash('error','password wrong');
 				return  res.redirect('/login');
@@ -174,7 +157,7 @@ module.exports = function(app){
 		var email = req.body.email;
 
 		if(password != re_password){
-			console.log('error1');
+			// console.log('error1');
 			req.flash('error','the password is not fit!');
 			return res.redirect('/register');
 		}
@@ -231,7 +214,7 @@ module.exports = function(app){
 		var label = req.body.label;
 		var saveDraft = req.body.saveDraft;
 		saveDraft = saveDraft || 'off';
-		console.log(saveDraft);
+		// console.log(saveDraft);
 		var newPublish = new Publish(name,title,content,label);
 		// console.log(newPublish);
 		if(saveDraft == "off"){
