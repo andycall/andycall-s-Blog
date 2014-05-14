@@ -8,18 +8,32 @@ var Db = new DB(settings.DB,new Server(settings.host, Connection.DEFAULT_PORT), 
 var mongodb = {};
 mongodb.open = function(callback){
 	Db.open(function(err,db){
+
+
+
 		if(!err){
 			console.log('Connected to database');
-			db.authenticate(settings.username,settings.password,function(err,res){
-				if(!err){
-					console.log('Authenticated');
-					callback(err,db);
-				}
-				else{
-					console.log('Error in authenticate');
-					console.log(err);
-				}
-			})
+            if(settings.username !== "" && settings.password !== ""){
+                try{
+                    db.authenticate(settings.username,settings.password,function(err,res){
+                        if(!err){
+                            console.log('Authenticated');
+                            callback(err,db);
+                        }
+                        else{
+                            console.log('Error in authenticate');
+                            console.log(err);
+                        }
+                    })
+                }
+                catch (e){
+                    throw  new Error(e);
+                }
+            }
+            else{
+                callback(err,db);
+            }
+
 		}
 		else{
 			console.log('Error in open');
