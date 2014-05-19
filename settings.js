@@ -4,5 +4,5 @@ module.exports = {
 	cookieSecret : "andycall",
 	username : '',
 	password: "",
-	site : 'http://localhost:1500'
+	site : 'http://localhost:3000'
 };

@@ -1,4 +1,4 @@
 var settings = {
 	host : 'localhost',
-	site : 'http://localhost:1500'
+	site : 'http://blog.andycall.net'
 }

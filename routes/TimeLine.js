@@ -1,7 +1,7 @@
 var crypto = require('crypto');
-var User = require('../modules/user.js');
-var Publish = require('../modules/publish.js');
-var Comment = require('../modules/comments.js');
+var User = require('./user.js');
+var Publish = require('./publish.js');
+var Comment = require('./comments.js');
 var settings = require('../settings.js');
 var fs = require('fs');
 

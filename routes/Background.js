@@ -1,4 +1,5 @@
-
+var express = require('express');
+var router = express.Router();
 var crypto = require('crypto');
 var User = require('../modules/user.js');
 var Publish = require('../modules/publish.js');
@@ -6,17 +7,16 @@ var Comment = require('../modules/comments.js');
 var settings = require('../settings.js');
 var fs = require('fs');
 
-
-module.exports = function(app){
 	function checkLogin(req,res,next){
 		if(!req.session.user){
 			req.flash('error','not login in ');
 			return res.redirect('/login')
 		}
 		next();
-	}	
-	app.get('/andycall',checkLogin);
-	app.get('/andycall',function(req,res){
+	}
+
+router.get('/andycall',checkLogin);
+router.get('/andycall',function(req,res){
 		var page = req.query.page ? parseInt(req.query.page) : 1;
 		Publish.getAll(null,function(err,docs){
 			if(err){
@@ -34,4 +34,5 @@ module.exports = function(app){
 			});
 		});
 	});
-}
+
+module.exports = router;

@@ -1,4 +1,5 @@
 var mongodb = require('./db.js');
+var markdown = require('markdown').markdown;
 
 function Publish(name,title,publish,label){
 	this.name = name;
@@ -191,6 +192,7 @@ Publish.getAll = function(name,callback){
 					return callback(err);
 				}
 				docs.forEach(function(doc){
+					doc.publish = markdown.toHTML(doc.publish);
 					doc.summary = doc.publish.substring(0,100);
 				});
 				callback(null,docs);
@@ -218,7 +220,7 @@ Publish.getOne = function(name,day,title,callback){
 				if(err){
 					return callback(err);
 				}
-				//doc.publish = markdown.toHTML(doc.publish);
+				doc.publish = markdown.toHTML(doc.publish);
 				if(doc){
 					doc.summary = doc.publish.substring(0,500);
 				}
@@ -336,6 +338,7 @@ Publish.getTen = function(name,page,callback){
 					}
 					// console.log(docs);
 					docs.forEach(function(doc){
+						doc.publish = markdown.toHTML(doc.publish);
 						doc.summary = doc.publish.substring(0,100);
 					})
 				//	console.log('publishs',docs,total);
