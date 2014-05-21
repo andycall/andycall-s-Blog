@@ -1,13 +1,52 @@
 <% include admin_head %>
-<form method="post">
-	<section>
-		<input type="text" name="title" id="title" value="<%= doc.title %>" readonly/>
-	</section>
-	<section>
-		<textarea name="publish" id="publish" cols="30" rows="10"><%= doc.publish %></textarea>
-	</section>
-	<input type="submit" value="submit" name="submit" />
+
+<form method="post" onsubmit="getKindeditor()">
+    <section>
+        title :
+        <input type="text" name="title" required="required" value="<%= doc.title %>">
+    </section>
+    <section>
+        Label<!-- <input type="text" name="label" id="label" required="required"> -->
+        <select name="label" id="label">
+            <option value="Others">Others</option>
+            <option value="Develop">Develope</option>
+        </select>
+    </section>
+    <section>
+        <textarea name="publish" rows="20" cols="100" id="publish" value="<%= doc.publish %>"></textarea>
+    </section>
+    <section>
+        保存为草稿:<input type="checkbox" name="saveDraft" />
+    </section>
+    <input type="submit" name='submit' value="POST" id="submit">
 </form>
 
+
+
+
+
+<script type="text/javascript">
+    function getKindeditor(){
+        var context = editor.html();
+        document.getElementById('publish').innerHTML = context;
+    }
+    document.getElementById('SaveDraft').addEventListener('click',function(){
+        this.dataset.draft = "true";
+    });
+</script>
+<script type="text/javascript">
+    var editor;
+    KindEditor.ready(function(K) {
+        editor = K.create('textarea', {
+            uploadJson: "/upload",
+            allowImageUpload : true,
+            width : "100%",
+            items : [
+                'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic',
+                'underline', 'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright',
+                'insertorderedlist', 'insertunorderedlist', '|', 'emoticons', 'image', 'link']
+        });
+    });
+</script>
 
 <% include admin_foot %>

@@ -392,7 +392,7 @@ router.get('/edit/:name/:day/:title',function(req,res){
                 return res.redirect('/');
             }
             //console.log(publish);
-            res.render('edit',{
+            res.render('Background/edit',{
                 title : "Edit",
                 doc : publish,
                 user : req.session.user,

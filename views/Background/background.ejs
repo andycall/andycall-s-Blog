@@ -59,7 +59,7 @@
                     </span>
                 </small>
                 <section class="post-controls">
-                    <a class="post-edit" href="#" title="Edit Post">
+                    <a class="post-edit" href="/edit/<%= user.username %>/<%= docs[0].time.day %>/<%= docs[0].title %>" title="Edit Post">
                         <span class="hidden">
                             Edit Post
                         </span>
@@ -69,20 +69,11 @@
                             Post Settings
                         </span>
                     </a>
-                    <div class="post-settings-menu menu-drop-right overlay" style="display: none;">
+                    <div class="post-settings-menu menu-drop-right overlay" style="display:none;">
                         <form>
                             <table class="plain">
                                 <tbody>
-                                    <tr class="post-setting">
-                                        <td class="post-setting-label">
-                                            <label for="url">
-                                                URL
-                                            </label>
-                                        </td>
-                                        <td class="post-setting-field">
-                                            <input id="url" class="post-setting-slug" type="text" value="">
-                                        </td>
-                                    </tr>
+
                                     <tr class="post-setting">
                                         <td class="post-setting-label">
                                             <label for="pub-date">
@@ -90,27 +81,15 @@
                                             </label>
                                         </td>
                                         <td class="post-setting-field">
-                                            <input id="pub-date" class="post-setting-date" type="text" value="" placeholder="">
+                                            <input id="pub-date" class="post-setting-date" type="text" value="<%= docs[0].time.day %>" placeholder="">
                                             <!--<span class="post-setting-calendar"></span>-->
                                         </td>
                                     </tr>
-                                    <tr class="post-setting">
-                                        <td class="post-setting-label">
-                                            <span class="label">
-                                                Static Page
-                                            </span>
-                                        </td>
-                                        <td class="post-setting-item">
-                                            <input id="static-page" class="post-setting-static-page" type="checkbox"
-                                            value="">
-                                            <label class="checkbox" for="static-page">
-                                            </label>
-                                        </td>
-                                    </tr>
+
                                 </tbody>
                             </table>
                         </form>
-                        <a class="delete" href="#">
+                        <a class="delete" href="/delete/<%= user.username %>/<%= docs[0].time.day %>/<%= docs[0].title %>">
                             Delete This Post
                         </a>
                     </div>
@@ -134,6 +113,7 @@
     ajax.postdata("./andycall", {} , function(data){
         cache["docs"]  = data;
     });
+ var postSettings = document.querySelector('.post-settings');
 var contentList = document.querySelectorAll(".content-list-list");
     function swap(index){
         var docs = cache['docs'];
@@ -147,6 +127,53 @@ var contentList = document.querySelectorAll(".content-list-list");
         }
 
         this.className = "content-list-list " + "active";
+        deleteButton();
+    }
+
+ function getAttribute(target,attr){
+     var isIE = document.currentStyle,
+             styleValue;
+
+     if(isIE){
+         if(attr == 'opacity'){
+             var RegFilter = /[\,\)]?opacity=([0-9]+)/,
+                     filter = target.currentStyle["filter"];
+             styleValue = parseFloat(RegFilter.exec(filter)[1]);
+         }
+         styleValue = target.currentStyle[attr];
+     }
+     else{
+         styleValue = window.getComputedStyle(target,null)[attr];
+     }
+     return styleValue;
+ }
+ function setAttribute(target,attr,value){
+     var isIE = document.currentStyle,
+             RegFilter = /(.+opacity=)([0-9]*)([\,\)]?.+)/;
+
+     if(isIE && attr == 'opacity'){
+         var filter = target.currentStyle['filter'],
+                 StrArr = RegFilter.exec(filter),
+                 strHead = StrArr[1],
+                 strFooter = StrArr[3];
+         target.style["filter"] = strHead + value * 100 + strFooter;
+     }
+     else{
+
+         target.style[attr] = value;
+     }
+ }
+
+    function deleteButton(){
+        var name = document.querySelector('.author').innerHTML,
+            title = document.querySelector('.entry-title').innerHTML,
+            day = document.querySelector('.published').innerHTML;
+        var reg = /\s+/g;
+        name = name.replace(reg,"");
+        title = title.replace(reg,"");
+        day = day.replace(reg,"");
+        document.querySelector('.delete').href = "/delete/" + name + "/" + day + "/" + title;
+        document.querySelector('.post-edit').href = "/edit/" + name + "/" + day + "/" + title;
     }
 
     for(var i = 0,len = contentList.length; i < len; i ++){
@@ -156,6 +183,16 @@ var contentList = document.querySelectorAll(".content-list-list");
             });
         })(i);
     }
+
+on(postSettings,'click',function(){
+    var menu = document.querySelector('.post-settings-menu');
+    if(getAttribute(menu,'display') == 'block'){
+        setAttribute(menu,'display','none');
+    }
+    else{
+        setAttribute(menu,'display','block');
+    }
+});
 
 </script>
 <% include admin_foot %>
