@@ -43,5 +43,19 @@ mongodb.open = function(callback){
 }
 mongodb.close = function(){
 	Db.close();
-}
+};
+
+mongodb.open = function(database,callback){
+    Db.open(function(err,db){
+        if(err){
+            return callback(err);
+        }
+
+        console.log("mongodb open success");
+        db.collection(database,callback);
+
+    });
+};
+
+
 module.exports = mongodb;

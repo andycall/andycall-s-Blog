@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<input type="text" id="number" />
+<button id="submit"></button>
+<div id="result"></div>
+</body>
+<script>
+    var number = document.getElementById('number').value;
+    var result = document.getElementById('result');
+    var wrongCount = 0;
+
+    function isInArray(value,arr){
+        for(var i = 0,len = arr.length; i < len; i ++){
+            if(value == arr[i]){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    function getRendomNum(){
+        var cache = [];
+        while(cache.length < 4){
+            var random = parseInt(Math.random() * 10);
+            if(!isInArray(random,cache)){
+                cache.push(random)
+            }
+        }
+        return cache;
+    }
+
+    function getUserNum(){
+        return document.getElementById('number').value.split("");
+    }
+
+
+    function guess(userInput,randomVal){
+           var right = 0,
+               wrong = 0;
+
+        for(var i = 0,len = randomVal.length; i < len; i ++){
+            if(userInput[i] == randomVal[i]){
+                right ++;
+            }
+            else if(isInArray(userInput[i],randomVal)){
+                wrong ++;
+            }
+        }
+
+        return right + "A" + wrong + "B";
+
+
+
+    }
+
+document.getElementById('submit').onclick = function(){
+    var userInput = getUserNum();
+    var raandomval = getRendomNum();
+    var results =  guess(userInput,raandomval);
+
+    result.innerHTML = results;
+
+    if(results.substring(0,1)!= '4'){
+        wrongCount++;
+    }
+    console.log(wrongCount);
+    if(wrongCount >6){
+        alert('游戏结束！');
+        window.close();
+    }
+
+}
+
+
+</script>
+</html>

@@ -26,22 +26,28 @@ var ajax = (function(){
         }
         return pairs.join('&');
     }
+
+    function ResponseHandle(request,callback){
+        var type = request.getResponseHeader('Content-Type').toUpperCase();
+
+        if(type.indexOf('XML') !== -1 && type.responseXML){
+            callback(request.responseXML);
+        }
+        else if(type.indexOf('JSON')){
+                callback(JSON.parse(request.responseText));
+        }
+        else{
+            callback(request.responseText);
+        }
+    }
+
     return {
         get : function(url,callback){
             request.open("GET",url);
             request.addEventListener('readystatechange',function(){
                 if(request.readyState === 4 && request.status === 200){
                     var type = request.getResponseHeader("Content-Type").toUpperCase();
-                    if(type.indexOf('XML') !== -1 && type.responseXML){
-                        callback(type.responseXML);
-                    }
-                    else if(type.indexOf('JSON')){
-                        callback(JSON.parse(type.responseText));
-                    }
-                    else{
-                        alert(type.responseText);
-                        callback(type.responseText);
-                    }
+                    ResponseHandle(request, callback);
                 }
             },false);
         },
@@ -49,7 +55,7 @@ var ajax = (function(){
             request.open('POST',url,true);
             request.addEventListener('readystatechange',function(){
                 if(request.readyState === 4 && callback){
-                      callback(request);
+                    ResponseHandle(request, callback);
                 }
             },false);
             request.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
@@ -59,7 +65,7 @@ var ajax = (function(){
             request.open('GET',url + "?" + encodeFormData(data));
             request.addEventListener('readystatechange',function(){
                 if(request.readyState === 4 && callback)
-                    callback(request);
+                    ResponseHandle(request, callback);
             },false);
             request.send(null);
         },
@@ -67,10 +73,10 @@ var ajax = (function(){
             request.open('POST',url,true);
             request.addEventListener('readystatechange',function(){
                 if(request.readyState === 4 && callback)
-                   callback(request);
+                   ResponseHandle(request, callback);
             },false);
             request.setRequestHeader('Content-Type','application/json');
-            request.send(encodeFormData(data));
+            request.send(data);
         },
         timeGetText : function(url,timeout,callback){
             var timedout = false;
@@ -86,8 +92,8 @@ var ajax = (function(){
                 if(timedout) return;
                 clearTimeout(timer);
                 if(request.status === 200){
-                    callback(request.responseText);
-                };
+                    ResponseHandle(request, callback);
+                }
             },false);
             request.send(null);
         }

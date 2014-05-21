@@ -13,16 +13,11 @@ User.prototype.save = function(callback){
 	var user = {
 		username : this.username,
 		password : this.password,
-		email : this.email
+		email : this.email,
+        permission : this.permission
 	};
 	// open the database
-	mongodb.open(function(err,db){
-		if(err){
-			return callback(err);// error , return the error info
-		}
-
-		//read the user info
-		db.collection('users',function(err,collection){
+	mongodb.open('users',function(err,collection){
 			if(err){ 
 				mongodb.close();
 				return callback(err);
@@ -36,19 +31,11 @@ User.prototype.save = function(callback){
 				}
 				callback(null,user[0]); // success ! return the user name
 			})
-
-		})
 	})
 }
 
 User.get = function(name,callback){
-	mongodb.open(function(err,db){
-		if(err){
-			return callback(err);
-		}
-
-		//read user
-		db.collection('users',function(err,collection){
+	mongodb.open('users',function(err,collection){
 			if(err){
 				mongodb.close();
 				callback(err);
@@ -62,7 +49,58 @@ User.get = function(name,callback){
 		        }
 		        callback(null, doc);//成功！返回查询的用户信息
 		      });
-
-		})
 	});
-}
+};
+
+User.getAll = function(username,callback){
+    if(typeof username == 'undefined'){
+        console.log("the name is undefined");
+    }
+
+    mongodb.open("users",function(err,collection){
+        if(err){
+            mongodb.close();
+            return callback(err);
+        }
+
+        var query = {};
+        if(username){
+            query.username = username;
+        }
+
+        collection.find(query).sort({time : -1}).toArray(function(err,users){
+            mongodb.close();
+            if(err){
+                return callback(err);
+            }
+
+            callback(null,users);
+        });
+    });
+};
+
+User.remove = function(username,callback){
+    mongodb.open('users',function(err,collection){
+        if(err){
+            mongodb.close();
+            return callback(err);
+        }
+
+        collection.remove({
+            "username" : username
+        },{
+            w : 1
+        },function(err){
+            mongodb.close();
+            if(err){
+                return callback(err);
+            }
+
+            callback(null);
+        })
+
+    });
+};
+
+
+

@@ -34,29 +34,23 @@ Publish.prototype.save = function(callback){
 
 
 
-	mongodb.open(function(err,db){
-		if(err){
-			return callback(err);
-		}
-		console.log("mongodb open success");
-		db.collection('publishs',function(err,collection){
-			if(err){
-				mongodb.close();
-				return callback(err);
-			}
-			collection.insert(publish,{
-				safe : true
-			},function(err,publish){
-				if(err){
-					mongodb.close();
-					return callback(err);
-				}
-				mongodb.close();
-				console.log("mongodb closed");
-				return callback(null,publish[0]);
-			})
-		})
-	})
+	mongodb.open('publishs',function(err,collection){
+            if(err){
+                mongodb.close();
+                return callback(err);
+            }
+            collection.insert(publish,{
+                safe : true
+            },function(err,publish){
+                if(err){
+                    mongodb.close();
+                    return callback(err);
+                }
+                mongodb.close();
+                console.log("mongodb closed");
+                return callback(null,publish[0]);
+            })
+    })
 }
 Publish.prototype.saveDraft = function(callback){
 	var date = new Date();
@@ -75,12 +69,7 @@ Publish.prototype.saveDraft = function(callback){
 			publish : this.publish,
 			label : this.label
 	};
-	mongodb.open(function(err,db){
-		if(err){
-			return callback(err);
-		}
-		console.log("mongodb open success");
-		db.collection('drafts',function(err,collection){
+	mongodb.open('drafts',function(err,collection){
 			if(err){
 				mongodb.close();
 				return callback(err);
@@ -95,7 +84,6 @@ Publish.prototype.saveDraft = function(callback){
 				console.log("mongodb closed");
 				return callback(null,publish[0]);
 			});
-		});
 
 	})
 }
@@ -103,12 +91,7 @@ Publish.prototype.saveDraft = function(callback){
 
 
 Publish.update = function(name,day,title,publish,callback){
-	mongodb.open(function(err,db){
-		if(err){
-			return callback(err);
-		}
-		console.log("mongodb open success");
-		db.collection('publishs',function(err,collection){
+	mongodb.open('publishs',function(err,collection){
 			if(err){
 				mongodb.close();
 				return callback(err);
@@ -126,18 +109,13 @@ Publish.update = function(name,day,title,publish,callback){
 				}
 				callback(null);
 			})
-		});
+
 	});
 };
 
 
 Publish.classify = function(name,label,page,callback){
-	mongodb.open(function(err,db){
-		if(err){
-			return callback(err);
-		}
-		console.log("mongodb open success");
-		db.collection('publishs',function(err,collection){
+	mongodb.open('publishs',function(err,collection){
 			if(err){
 				mongodb.close();
 				return callback(err);
@@ -161,7 +139,7 @@ Publish.classify = function(name,label,page,callback){
 					callback(null,docs,total);
 				})
 			})
-		});
+
 	});
 }
 
@@ -172,12 +150,7 @@ Publish.getAll = function(name,callback){
 		console.log('the name is undefined');
 	}
 	
-	mongodb.open(function(err,db){
-		if(err){
-			return callback(err);
-		}
-		console.log("mongodb open success");
-		db.collection('publishs',function(err,collection){
+	mongodb.open('publishs',function(err,collection){
 			if(err){
 				mongodb.close();
 				return callback(err);
@@ -196,17 +169,11 @@ Publish.getAll = function(name,callback){
 					doc.summary = doc.publish.substring(0,100);
 				});
 				callback(null,docs);
-			})	
-		});
+			})
 	});
 }
 Publish.getOne = function(name,day,title,callback){
-	mongodb.open(function(err,db){
-		if(err){
-			return callback(err);
-		}
-		console.log("mongodb open success");
-		db.collection('publishs',function(err,collection){
+	mongodb.open('publishs',function(err,collection){
 			if(err){
 				mongodb.close();
 				return callback(err);
@@ -226,17 +193,11 @@ Publish.getOne = function(name,day,title,callback){
 				}
 				callback(null,doc);
 			});
-		});
 	});
 }
 
 Publish.getTitle = function(name,callback){
-	mongodb.open(function(err,db){
-		if(err){
-			return callback(err);
-		}
-		console.log("mongodb open success");
-		db.collection('publishs',function(err,collection){
+	mongodb.open('publishs',function(err,collection){
 			if(err){
 				mongodb.close();
 				return callback(err);
@@ -250,19 +211,13 @@ Publish.getTitle = function(name,callback){
 				}
 				callback(null,doc);
 			});
-		})
 	})
 }
 
 //return the mark format
 Publish.edit = function(name,day,title,callback){
 	//console.log(name,day,title,callback);
-	mongodb.open(function(err,db){
-		if(err){
-			return callback(err);
-		}
-		console.log("mongodb open success");
-		db.collection('publishs',function(err,collection){
+	mongodb.open('publishs',function(err,collection){
 			if(err){
 				mongodb.close();
 				return callback(err);
@@ -278,17 +233,11 @@ Publish.edit = function(name,day,title,callback){
 					}
 					callback(null,doc);
 				})
-		})
 	})
 }
 
 Publish.remove = function(name,day,title,callback){
-	mongodb.open(function(err,db){
-		if(err){
-			return callback(err);
-		}
-		console.log("mongodb open success");
-		db.collection('publishs',function(err,collection){
+	mongodb.open('publishs',function(err,collection){
 			if(err){
 				mongodb.close();
 				return callback(err);
@@ -307,18 +256,12 @@ Publish.remove = function(name,day,title,callback){
 				}
 				callback(null);
 			})
-		});
 	});
 };
 
 
 Publish.getTen = function(name,page,callback){
-	mongodb.open(function(err,db){
-		if(err){
-			return callback(err);
-		}
-		console.log("mongodb open success");
-		db.collection('publishs',function(err,collection){
+	mongodb.open('publishs',function(err,collection){
 			if(err){
 				mongodb.close();
 				return  callback(err);
@@ -345,7 +288,7 @@ Publish.getTen = function(name,page,callback){
 					callback(null,docs,total);
 				});
 			});
-		});
+
 	});
 }
 

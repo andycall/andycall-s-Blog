@@ -2660,11 +2660,16 @@ input[type=checkbox]:checked+.checkbox:after {
 	margin:0;
 	padding:0;
 	border-bottom:#edece4 1px solid;
-	position:relative
+	position:relative;
+}
+.manage .content-list ol li.active{
+    border-bottom: #e8eaeb 1px solid;
+    background: #f6f6f7;
+    box-shadow: #e8eaeb 0 -1px 0,rgba(0,0,0,0.06) 7px 0 0 inset,#e8eaeb 1px 0 0 inset;
 }
 .manage .content-list ol li a {
 	display:block;
-	padding:20px 15px;
+	padding:20px 25px;
 	color:#aaa9a2
 }
 @media (max-width:400px) {

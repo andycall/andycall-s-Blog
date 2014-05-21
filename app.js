@@ -7,7 +7,6 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 var routes = require('./routes/index');
 var BackGround = require('./routes/Background');
-var users = require('./routes/users');
 var MongoStore = require('connect-mongo')(session);
 var settings = require('./settings.js');
 var flash = require('connect-flash');
@@ -43,7 +42,6 @@ app.use(session({
 
 app.use('/', routes);
 app.use('/', BackGround);
-app.use('/users', users);
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {

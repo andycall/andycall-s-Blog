@@ -15,8 +15,12 @@
             <section class="content-list-content">
                 <ol>
                 <% docs.forEach(function(doc,index){ %>
-                    <li>
-                        <a class="permalink" href="<%= site %>/edit/<%= doc.name %>/<%= doc.time.day %>/<%= doc.title %>" title="Edit this post">
+                    <% if(index == 0){ %>
+                        <li class="active content-list-list">
+                    <% }else { %>
+                        <li class="content-list-list">
+                    <% } %>
+                        <a class="permalink" href="#" title="Edit this post">
                             <h3 class="entry-title">
                                 <%= doc.title %>
                             </h3>
@@ -28,7 +32,6 @@
                                 </span>
                             </section>
                         </a>
-                        <a class="DeletePost" >Delete</a>
                     </li>
                 <% }); %>
                 </ol>
@@ -115,14 +118,38 @@
             </header>
             <section class="content-preview-content">
                 <div class="wrapper">
-                    
+                    <%- docs[0].publish %>
+
                 </div>
             </section>
             
         </section>
     </section>
 </main>
-<script type="text/html">
-    var abc = <%= docs %>
+<script type="text/javascript" src="<%= site %>/javascripts/ajax.js"></script>
+<script type="text/javascript" src="<%= site %>/javascripts/eventHandle.js"></script>
+<script>
+ var  cache = {};
+    ajax.postdata("./andycall", {} , function(data){
+        cache["docs"]  = data;
+    });
+var contentList = document.querySelectorAll("content-list-list");
+
+    function swap(){
+
+    }
+
+    for(var i = 0,len = contentList.length; i < len; i ++){
+        on(contentList[i],'click',function(){
+            swap.call(contentList[i]);
+        });
+    }
+
+
+
+
+
+
+
 </script>
 <% include admin_foot %>
