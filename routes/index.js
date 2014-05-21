@@ -203,7 +203,7 @@ router.post('/addUser', function(req,res){
 
 router.get('/register',checkNotLogin);
 router.get('/register',function(req,res){
-        res.render('register',{
+        res.render('main_page/register',{
             title : "Register",
             user : req.session.user,
             success : req.flash('success').toString(),

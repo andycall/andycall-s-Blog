@@ -126,6 +126,7 @@
         </section>
     </section>
 </main>
+
 <script type="text/javascript" src="<%= site %>/javascripts/ajax.js"></script>
 <script type="text/javascript" src="<%= site %>/javascripts/eventHandle.js"></script>
 <script>
@@ -133,23 +134,28 @@
     ajax.postdata("./andycall", {} , function(data){
         cache["docs"]  = data;
     });
-var contentList = document.querySelectorAll("content-list-list");
+var contentList = document.querySelectorAll(".content-list-list");
+    function swap(index){
+        var docs = cache['docs'];
 
-    function swap(){
 
+        if(document.querySelector('.wrapper')){
+            document.querySelector('.wrapper').innerHTML = docs[index].publish;
+        }
+        for(var i = 0,len = contentList.length; i < len; i ++){
+            contentList[i].className = "content-list-list";
+        }
+
+        this.className = "content-list-list " + "active";
     }
 
     for(var i = 0,len = contentList.length; i < len; i ++){
-        on(contentList[i],'click',function(){
-            swap.call(contentList[i]);
-        });
+        (function(index){
+            on(contentList[index],'click',function(){
+                swap.call(contentList[index],index);
+            });
+        })(i);
     }
-
-
-
-
-
-
 
 </script>
 <% include admin_foot %>

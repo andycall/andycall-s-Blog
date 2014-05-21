@@ -4,6 +4,9 @@ function User(user){
 	this.username = user.username;
 	this.password = user.password;
 	this.email = user.email;
+    this.permission = user.permission;
+    this.blogTitle = user.blogTitle;
+    this.blogDescription = user.blogDescription;
 }
 
 module.exports = User;
@@ -14,7 +17,9 @@ User.prototype.save = function(callback){
 		username : this.username,
 		password : this.password,
 		email : this.email,
-        permission : this.permission
+        permission : this.permission,
+        blogTitle : this.blogTitle,
+        blogDescription : this.blogDescription
 	};
 	// open the database
 	mongodb.open('users',function(err,collection){
@@ -32,7 +37,7 @@ User.prototype.save = function(callback){
 				callback(null,user[0]); // success ! return the user name
 			})
 	})
-}
+};
 
 User.get = function(name,callback){
 	mongodb.open('users',function(err,collection){
@@ -102,5 +107,46 @@ User.remove = function(username,callback){
     });
 };
 
+User.updatePSW = function(username, password, callback){
+    mongodb.open('users',function(err,collection){
+        if(err){
+            mongodb.close();
+            return callback(err);
+        }
+
+        collection.update({
+            "username" : username
+        },{
+            $set : { password: password }
+        }, function(err){
+            mongodb.close();
+            if(err){
+              return callback(err);
+            }
+            callback(null);
+        })
+    })
+};
+
+User.updateGeneral = function(username, description, title, callback){
+    mongodb.open('users', function(err, collection){
+        if(err){
+            mongodb.close();
+            return callback(err);
+        }
+
+        collection.update({
+            "username" : username
+        },{
+            $set : {description : description, title : title }
+        }, function(err){
+            mongodb.close();
+            if(err){
+               return  callback(err);
+            }
+            callback(null);
+        });
+    })
+};
 
 

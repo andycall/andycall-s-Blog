@@ -2123,7 +2123,6 @@ form > input {
 }
 fieldset {
 	border:none;
-	margin:0 0 3em 0;
 	padding:0
 }
 legend {
@@ -4940,3 +4939,4 @@ body.zen .entry-markdown,body.zen .entry-preview {
 .settings .plugin-section-table .plugin-settings-icon:hover {
 	text-decoration:none
 }
+

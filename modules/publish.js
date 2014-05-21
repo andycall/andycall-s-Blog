@@ -184,10 +184,9 @@ Publish.getOne = function(name,day,title,callback){
 				"time.day" : day
 			},function(err,doc){
 				mongodb.close();
-				if(err){
-					return callback(err);
-				}
-				doc.publish = markdown.toHTML(doc.publish);
+				if(err) {
+                    return callback(err);
+                }
 				if(doc){
 					doc.summary = doc.publish.substring(0,500);
 				}

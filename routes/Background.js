@@ -56,15 +56,40 @@ router.get('/config', function(req,res){
 
 router.get('/config/general', checkLogin);
 router.get('/config/general', function(req,res){
-    res.render("Background/config",{
-        title : "Settings",
-        user : req.session.user,
-        success : req.flash("success").toString(),
-        error : req.flash("error").toString(),
-        site : settings.site,
-        isUser : false // 这里要进行判断
+    User.get(req.session.user.username, function(err,docs){
+        if(err){
+            docs = [];
+        }
+        console.log(docs);
+        res.render('Background/config',{
+            title : "AndyCall's blog",
+            docs : docs,
+            user : req.session.user,
+            success : req.flash("success").toString(),
+            error : req.flash("error").toString(),
+            site : settings.site,
+            isUser : false // 这里要进行判断,
+        });
     });
 });
+
+router.post('/config/general', checkLogin);
+router.post('/config/general', function(req, res){
+    var description = req.body.description,
+        title = req.body.title;
+
+    User.updateGeneral(req.session.user.username, description, title, function(err){
+        if(err){
+            req.flash("error", err);
+            res.redirect('back');
+        }
+
+        req.flash('success',"update success!");
+        res.redirect("/andycall");
+    });
+
+})
+
 
 
 router.get('/config/user', checkLogin);
@@ -77,6 +102,44 @@ router.get('/config/user', function(req,res){
         site : settings.site,
         isUser : true // 这里要进行判断
     });
+});
+
+router.post('/config/user', checkLogin);
+router.post('/config/user', function(req, res){
+    var oldPassword = req.body.oldPassword,
+        newPassword = req.body.newPassword,
+        verifPassword = req.body.verifPassword;
+
+    var md5 = crypto.createHash("md5");
+    oldPassword = md5.update(oldPassword).digest("hex");
+
+
+    if(oldPassword != req.session.user.password){
+        req.flash("error", "Password error!");
+        res.redirect("back");
+    }
+
+
+    if(newPassword != verifPassword){
+        req.flash('error', "verify password error!");
+        res.redirect("back");
+    }
+
+    var md6 = crypto.createHash('md5');
+    newPassword = md6.update(newPassword).digest("hex");
+
+    console.log(oldPassword);
+    User.updatePSW(req.session.user.username, newPassword, function(err){
+        if(err){
+            req.flash("error", err);
+            res.redirect("back");
+        }
+
+        req.flash("success","change password success!");
+        res.redirect("/andycall");
+
+    });
+
 });
 
 

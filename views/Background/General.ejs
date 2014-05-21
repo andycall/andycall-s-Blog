@@ -1,16 +1,18 @@
 <section class="content">
-    <form id="settings-general" novalidate="novalidate">
+    <form id="settings-general" novalidate="novalidate" method="post">
         <fieldset>
-
+            <section class="page-actions">
+                <button class="button-save">Save</button>
+            </section>
             <div class="form-group">
                 <label for="blog-title">Blog Title</label>
-                <input id="blog-title" name="general[title]" type="text" value="Ghost">
+                <input id="blog-title" name="title" type="text" value="<%= docs %>">
                 <p>The name of your blog</p>
             </div>
 
             <div class="form-group description-container">
                 <label for="blog-description">Blog Description</label>
-                <textarea id="blog-description">Just a blogging platform.</textarea>
+                <textarea id="blog-description" name="description">Just a blogging platform.</textarea>
                 <p>
                     Describe what your blog is about
                     <span class="word-count" style="color: rgb(158, 157, 149);">175</span>
@@ -18,50 +20,26 @@
 
             </div>
         </fieldset>
-        <div class="form-group">
-            <label for="blog-logo">Blog Logo</label>
+        <!--<div class="form-group">-->
+            <!--<label for="blog-logo">Blog Logo</label>-->
 
-            <a class="button-add js-modal-logo">Upload Image</a>
+            <!--<a class="button-add js-modal-logo">Upload Image</a>-->
 
-            <p>Display a sexy logo for your publication</p>
-        </div>
+            <!--<p>Display a sexy logo for your publication</p>-->
+        <!--</div>-->
 
-        <div class="form-group">
-            <label for="blog-cover">Blog Cover</label>
+        <!--<div class="form-group">-->
+            <!--<label for="blog-cover">Blog Cover</label>-->
 
-            <a class="button-add js-modal-cover">Upload Image</a>
+            <!--<a class="button-add js-modal-cover">Upload Image</a>-->
 
-            <p>Display a cover image on your site</p>
-        </div>
+            <!--<p>Display a cover image on your site</p>-->
+        <!--</div>-->
         <fieldset>
             <div class="form-group">
                 <label for="email-address">Email Address</label>
                 <input id="email-address" name="general[email-address]" type="email" value="dongtiangche@gmail.com" autocapitalize="off" autocorrect="off">
                 <p>Address to use for admin notifications</p>
-            </div>
-
-            <div class="form-group">
-                <label for="postsPerPage">Posts per page</label>
-                <input id="postsPerPage" name="general[postsPerPage]" type="number" value="6">
-                <p>How many posts should be displayed on each page</p>
-            </div>
-
-            <div class="form-group">
-                <label for="permalinks">Dated Permalinks</label>
-                <input id="permalinks" name="general[permalinks]" type="checkbox" value="permalink">
-                <label class="checkbox" for="permalinks"></label>
-                <p>Include the date in your post URLs</p>
-            </div>
-
-            <div class="form-group">
-                <label for="activeTheme">Theme</label>
-                <select id="activeTheme" name="general[activeTheme]">
-
-                    <option value="casper" selected="">Casper - 0.9.3</option>
-
-
-                </select>
-                <p>Select a theme for your blog</p>
             </div>
 
         </fieldset>

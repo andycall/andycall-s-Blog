@@ -8,9 +8,6 @@ var Db = new DB(settings.DB,new Server(settings.host, Connection.DEFAULT_PORT), 
 var mongodb = {};
 mongodb.open = function(callback){
 	Db.open(function(err,db){
-
-
-
 		if(!err){
 			console.log('Connected to database');
             if(settings.username !== "" && settings.password !== ""){
