@@ -84,7 +84,7 @@ User.getAll = function(username,callback){
     });
 };
 
-User.remove = function(username,callback){
+User.remove = function(username, callback){
     mongodb.open('users',function(err,collection){
         if(err){
             mongodb.close();

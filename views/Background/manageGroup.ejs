@@ -4,11 +4,28 @@
     <section class="content no-padding">
 
         <form class="user-profile" novalidate="novalidate" method="post">
+
             <fieldset>
 
-
+                <table>
+                    <tr>
+                        <th>用户名</th>
+                        <th>权限</th>
+                        <th>邮箱</th>
+                        <th></th>
+                    </tr>
+                    <% users.forEach(function(value,index){ %>
+                    <tr>
+                        <td><%= value.username %></td>
+                        <td><%= value.permission %></td>
+                        <td><%= value.email %></td>
+                        <td><a href="/deleteUser/<%= value.username %>">Delete</a></td>
+                    </tr>
+                    <% }); %>
+                </table>
             </fieldset>
+
         </form>
     </section>
-
+    <% include notification.ejs %>
 </section>

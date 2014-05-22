@@ -61,9 +61,9 @@ router.get('/config/manage', function(req , res){
             req.flash('error', err);
             return res.redirect("back");
         }
-        res.render('Background/manageGroup',{
+        res.render('Background/config',{
             title : "AndyCall's blog",
-            docs : docs,
+            users : users,
             user : req.session.user,
             success : req.flash("success").toString(),
             error : req.flash("error").toString(),
@@ -75,6 +75,30 @@ router.get('/config/manage', function(req , res){
 
     });
 });
+
+router.get('/deleteUser/:name', checkLogin);
+router.get('/deleteUser/:name', function(req, res){
+    if(req.session.user.permission < 7){
+        req.flash('error',"Only admin can delete user");
+        return res.redirect("back");
+    }
+
+    var username = req.params.name;
+
+    User.remove(username, function(err){
+        if(err){
+            req.flash('error', err);
+            return res.redirect('back');
+        }
+
+        req.flash('success', "the User " + username + " had been removed");
+        res.redirect('back');
+    });
+
+
+
+});
+
 
 
 router.get('/config/general', checkLogin);
@@ -168,7 +192,7 @@ router.post('/config/addUser', function(req, res){
 
             req.flash('success', "New User added");
             console.log(err, name);
-            res.redirect("back");
+            res.redirect("/andycall");
         });
     });
 
