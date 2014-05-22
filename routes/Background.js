@@ -54,6 +54,29 @@ router.get('/config', function(req,res){
 });
 
 
+router.get('/config/manage', checkLogin);
+router.get('/config/manage', function(req , res){
+    User.getAll(null, function(err,users){
+        if(err){
+            req.flash('error', err);
+            return res.redirect("back");
+        }
+        res.render('Background/manageGroup',{
+            title : "AndyCall's blog",
+            docs : docs,
+            user : req.session.user,
+            success : req.flash("success").toString(),
+            error : req.flash("error").toString(),
+            site : settings.site,
+            isUser : false, // 这里要进行判断,
+            isAddUser : false,
+            isManage : true
+        });
+
+    });
+});
+
+
 router.get('/config/general', checkLogin);
 router.get('/config/general', function(req,res){
     User.get(req.session.user.username, function(err,docs){
@@ -68,7 +91,9 @@ router.get('/config/general', function(req,res){
             success : req.flash("success").toString(),
             error : req.flash("error").toString(),
             site : settings.site,
-            isUser : false // 这里要进行判断,
+            isUser : false, // 这里要进行判断,
+            isAddUser : false,
+            isManage : false
         });
     });
 });
@@ -88,7 +113,66 @@ router.post('/config/general', function(req, res){
         res.redirect("/andycall");
     });
 
-})
+});
+
+router.get('/config/addUser', checkLogin);
+router.get('/config/addUser', function(req, res){
+    res.render("Background/config",{
+        title : "Settings",
+        user : req.session.user,
+        success : req.flash("success").toString(),
+        error : req.flash("error").toString(),
+        site : settings.site,
+        isUser : false, // 这里要进行判断
+        isAddUser : true,
+        isManage: false
+    });
+});
+
+router.post('/config/addUser', checkLogin);
+router.post('/config/addUser', function(req, res){
+    // check permission
+    if(req.session.user.permission < 7){
+        req.flash('error', "authorization Error");
+        console.log(req.session.user);
+        return res.redirect("back");
+    }
+
+    var newUserName = req.body.newUsername,
+        UserGroup = req.body.newUserGroup,
+        Userpsw = req.body.UserPassword,
+        UserEmail = req.body.UserEmail;
+
+    var md5 = crypto.createHash("md5");
+
+    Userpsw = md5.update(Userpsw).digest('hex');
+
+    var newUser = new User({
+        username : newUserName,
+        password : Userpsw,
+        email : UserEmail,
+        permission : UserGroup
+    });
+
+    User.get(newUser.username , function(err,user){
+        if(user){
+            req.flash('error','the user is already exist!');
+            return res.redirect('/addUser');
+        }
+        newUser.save(function(err, name){
+
+            if(err){
+                req.flash('error', err);
+                return res.redirect("back");
+            }
+
+            req.flash('success', "New User added");
+            console.log(err, name);
+            res.redirect("back");
+        });
+    });
+
+});
 
 
 
@@ -100,9 +184,11 @@ router.get('/config/user', function(req,res){
         success : req.flash("success").toString(),
         error : req.flash("error").toString(),
         site : settings.site,
-        isUser : true // 这里要进行判断
+        isUser : true, // 这里要进行判断
+        isAddUser : false
     });
 });
+
 
 router.post('/config/user', checkLogin);
 router.post('/config/user', function(req, res){

@@ -112,7 +112,12 @@ router.post('/',function(req,res){
 //    });
 router.get('/login',checkNotLogin);
 router.get('/login',function(req,res){
-        // console.log(Object.prototype.toString.call(req.flash('success')));
+
+    User.getAll(null, function(err,user){
+        if(!user[0]){
+            res.redirect("/register");
+        }
+
         res.render('login',{
             title : "Login",
             user : req.session.user,
@@ -120,9 +125,9 @@ router.get('/login',function(req,res){
             error : req.flash('error'),
             site : settings.site
         });
-        // console.log(req.flash('success').length);
 
     });
+});
 router.post('/login',checkNotLogin);
 router.post('/login',function(req,res){
         var md5 = crypto.createHash('md5');
@@ -218,7 +223,8 @@ router.post('/register',function(req,res){
         var name = req.body.username;
         var password = req.body.psw;
         var re_password = req.body.repsw;
-        var email = req.body.email;
+        var email = req.body.email,
+            permission = req.body.permission;
 
         if(password != re_password){
             // console.log('error1');
@@ -232,7 +238,8 @@ router.post('/register',function(req,res){
         var newUser = new User({
             username : name,
             password : password,
-            email : email
+            email : email,
+            permission: permission
         });
 
         //check the username is exist
