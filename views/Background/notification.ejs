@@ -1,6 +1,17 @@
+<% if(success.length !== 0) {%>
 <div class="js-bb-notification" style="display: block; height: auto;">
     <section class="notification-success notification-passive js-notification">
-        Your post has been updated.
+        <%= success %>
         <a class="close" href="#"><span class="hidden">Close</span></a>
     </section>
 </div>
+<% }else if(error.length !== 0){ %>
+<div class="js-bb-notification" style="display: block; height: auto;">
+    <section class="notification-error notification-passive js-notification">
+        <%= error %>
+        <a class="close" href="#"><span class="hidden">Close</span></a>
+    </section>
+</div>
+
+<% } %>
+

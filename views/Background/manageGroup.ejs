@@ -12,6 +12,7 @@
                         <th>用户名</th>
                         <th>权限</th>
                         <th>邮箱</th>
+                        <th>积分</th>
                         <th></th>
                     </tr>
                     <% users.forEach(function(value,index){ %>
@@ -19,6 +20,7 @@
                         <td><%= value.username %></td>
                         <td><%= value.permission %></td>
                         <td><%= value.email %></td>
+                        <td><%= value.score %></td>
                         <td><a href="/deleteUser/<%= value.username %>">Delete</a></td>
                     </tr>
                     <% }); %>
@@ -27,5 +29,4 @@
 
         </form>
     </section>
-    <% include notification.ejs %>
 </section>

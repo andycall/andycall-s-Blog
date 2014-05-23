@@ -239,7 +239,8 @@ router.post('/register',function(req,res){
             username : name,
             password : password,
             email : email,
-            permission: permission
+            permission: permission,
+            score : 0
         });
 
         //check the username is exist

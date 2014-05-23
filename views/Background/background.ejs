@@ -1,7 +1,5 @@
 <% include admin_head %>
-<main role="main" id="main">
-    <aside id="notifications" class="notifications">
-    </aside>
+
     <section class="content-view-container">
         <section class="content-list js-content-list">
             <header class="floatingheader">
@@ -59,11 +57,19 @@
                     </span>
                 </small>
                 <section class="post-controls">
+                    <% if(docs[0]){ %>
                     <a class="post-edit" href="/edit/<%= user.username %>/<%= docs[0].time.day %>/<%= docs[0].title %>" title="Edit Post">
                         <span class="hidden">
                             Edit Post
                         </span>
                     </a>
+                    <% }else{ %>
+                    <a class="post-edit" href="#" title="Edit Post">
+                        <span class="hidden">
+                            Edit Post
+                        </span>
+                    </a>
+                    <% } %>
                     <a class="post-settings" href="#" data-toggle=".post-settings-menu" title="Post Settings">
                         <span class="hidden">
                             Post Settings
@@ -81,30 +87,41 @@
                                             </label>
                                         </td>
                                         <td class="post-setting-field">
-                                            <input id="pub-date" class="post-setting-date" type="text" value="<%= docs[0].time.day %>" placeholder="">
-                                            <!--<span class="post-setting-calendar"></span>-->
+                                            <% if(docs[0]){ %>
+                                                <input id="pub-date" class="post-setting-date" type="text" value="<%= docs[0].time.day %>" placeholder="">
+                                            <% }else{ %>
+                                                <input id="pub-date" class="post-setting-date" type="text" value="" placeholder="">
+                                            <% } %>
                                         </td>
                                     </tr>
 
                                 </tbody>
                             </table>
                         </form>
+                        <% if(docs[0]){ %>
                         <a class="delete" href="/delete/<%= user.username %>/<%= docs[0].time.day %>/<%= docs[0].title %>">
                             Delete This Post
                         </a>
+                        <% }else{ %>
+                        <a class="delete" href="#">
+                            Delete This Post
+                        </a>
+                        <% } %>
                     </div>
                 </section>
             </header>
             <section class="content-preview-content">
                 <div class="wrapper">
-                    <%- docs[0].publish %>
+                    <% if(docs[0]){ %>
+                        <%- docs[0].publish %>
+                    <% } %>
 
                 </div>
             </section>
             
         </section>
     </section>
-</main>
+
 
 <script type="text/javascript" src="<%= site %>/javascripts/ajax.js"></script>
 <script type="text/javascript" src="<%= site %>/javascripts/eventHandle.js"></script>

@@ -6,13 +6,21 @@
             </section>
             <div class="form-group">
                 <label for="blog-title">Blog Title</label>
-                <input id="blog-title" name="title" type="text" value="<%= docs %>">
+                <% if(docs.title){ %>
+                <input id="blog-title" name="title" type="text" value="<%= docs.title %>">
+                <% }else{ %>
+                <input id="blog-title" name="title" type="text" value="">
+                <% } %>
                 <p>The name of your blog</p>
             </div>
 
             <div class="form-group description-container">
                 <label for="blog-description">Blog Description</label>
-                <textarea id="blog-description" name="description">Just a blogging platform.</textarea>
+                <% if(docs.description){ %>
+                <textarea id="blog-description" name="description"><%= docs.description %></textarea>
+                <% }else{ %>
+                <textarea id="blog-description" name="description"></textarea>
+                <% } %>
                 <p>
                     Describe what your blog is about
                     <span class="word-count" style="color: rgb(158, 157, 149);">175</span>
@@ -20,25 +28,10 @@
 
             </div>
         </fieldset>
-        <!--<div class="form-group">-->
-            <!--<label for="blog-logo">Blog Logo</label>-->
-
-            <!--<a class="button-add js-modal-logo">Upload Image</a>-->
-
-            <!--<p>Display a sexy logo for your publication</p>-->
-        <!--</div>-->
-
-        <!--<div class="form-group">-->
-            <!--<label for="blog-cover">Blog Cover</label>-->
-
-            <!--<a class="button-add js-modal-cover">Upload Image</a>-->
-
-            <!--<p>Display a cover image on your site</p>-->
-        <!--</div>-->
         <fieldset>
             <div class="form-group">
                 <label for="email-address">Email Address</label>
-                <input id="email-address" name="general[email-address]" type="email" value="dongtiangche@gmail.com" autocapitalize="off" autocorrect="off">
+                <input id="email-address" name="general[email-address]" type="email" value="<%= docs.email  %>" autocapitalize="off" autocorrect="off">
                 <p>Address to use for admin notifications</p>
             </div>
 

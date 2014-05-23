@@ -18,7 +18,7 @@ var fs = require('fs');
 router.get('/andycall',checkLogin);
 router.get('/andycall',function(req,res){
     var page = req.query.page ? parseInt(req.query.page) : 1;
-		Publish.getAll(null,function(err,docs){
+		Publish.getAll(req.session.user.username,function(err,docs){
 			if(err){
 				docs = [];
 			}
@@ -56,6 +56,11 @@ router.get('/config', function(req,res){
 
 router.get('/config/manage', checkLogin);
 router.get('/config/manage', function(req , res){
+    if(req.session.user.permission < 7){
+        req.flash('error',"Not Authorization ");
+        return res.redirect('back');
+    }
+
     User.getAll(null, function(err,users){
         if(err){
             req.flash('error', err);
@@ -175,7 +180,8 @@ router.post('/config/addUser', function(req, res){
         username : newUserName,
         password : Userpsw,
         email : UserEmail,
-        permission : UserGroup
+        permission : UserGroup,
+        score : 0
     });
 
     User.get(newUser.username , function(err,user){
@@ -281,8 +287,16 @@ router.post('/publish',function(req,res){
                 req.flash('error',err);
                 return res.redirect('/publish');
             }
-            req.flash('success','the page had published successfully!');
-            res.redirect('/andycall');
+            User.addScroe(req.session.user.username, function(err){
+                if(err){
+                    req.flash("error", err);
+                    return res.redirect("back");
+                }
+                console.log('123');
+                req.flash('success','the page had published successfully!');
+                res.redirect('/andycall');
+            });
+
         });
     }
 

@@ -7,6 +7,7 @@ function User(user){
     this.permission = user.permission;
     this.blogTitle = user.blogTitle;
     this.blogDescription = user.blogDescription;
+    this.score = user.score;
 }
 
 module.exports = User;
@@ -19,7 +20,8 @@ User.prototype.save = function(callback){
 		email : this.email,
         permission : this.permission,
         blogTitle : this.blogTitle,
-        blogDescription : this.blogDescription
+        blogDescription : this.blogDescription,
+        score : this.score
 	};
 	// open the database
 	mongodb.open('users',function(err,collection){
@@ -150,3 +152,26 @@ User.updateGeneral = function(username, description, title, callback){
 };
 
 
+
+
+User.addScroe = function(username, callback){
+    mongodb.open('users', function(err, collection){
+        if(err){
+            mongodb.close();
+            return callback(err);
+        }
+
+        collection.update({
+            "username" : username
+        },{
+            $inc : {score : 1}
+        }, function(err){
+            mongodb.close();
+            if(err){
+                return callback(err);
+            }
+
+            callback(null);
+        })
+    })
+};
