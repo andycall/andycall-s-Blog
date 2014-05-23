@@ -1,6 +1,7 @@
 </main>
 </body>
 <script type="text/javascript" src="<%= site %>/javascripts/settings.js"></script>
+<script type="text/javascript" src="<%= site %>/javascripts/eventHandle.js"></script>
 <script type="text/javascript">
 var usermenu = document.getElementById('usermenu');
 usermenu.onclick = function(){
@@ -19,6 +20,20 @@ usermenu.onclick = function(){
 //	});
 //});
 
+var hidden = document.querySelectorAll('.close');
+var notification = document.querySelectorAll('.js-bb-notification');
+if(hidden){
+    for(var i = 0,len = hidden.length; i < len; i ++){
+        (function(index){
+            on(hidden[index],'click', function(){
+                notification[index].style.display = 'none';
+            })
+        })(i);
+    }
+}
+
 </script>
+
+
 
 </html>
