@@ -4,8 +4,8 @@
 		<% docs.forEach(function(doc,index){ %>
 			<li class="article">
 				<div class="time">
-					<span class="art_day"><%= doc.time.day %></span>
-					<span><%= doc.time.minute %></span>
+					<span class="art_day"><%= doc.time.month %>&nbsp;&nbsp;&nbsp;<%= doc.time.minute %></span>
+					<span><%= doc.name %></span>
 				</div>
 				<div class="circle">
 					<i class="fa fa-calendar"></i>
