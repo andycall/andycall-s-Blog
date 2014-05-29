@@ -6,6 +6,10 @@ var Publish = require('../modules/publish.js');
 var Comment = require('../modules/comments.js');
 var settings = require('../settings.js');
 var fs = require('fs');
+var ccap = require('ccap');
+
+
+var exam_text; //验证码字符串
 
 function checkLogin(req,res,next){
     if(!req.session.user){
@@ -45,30 +49,54 @@ router.get('/',function(req,res){
         var time = req.query.time;
         var title = req.query.title;
         var user =  "andycall";
+
         Publish.getTen(null,page,function(err,docs,total){
             if(err){
                 docs = [];
             }
-            res.render('main_page/index',{
-                title : "AndyCall's blog",
-                docs : docs,
-                page : page,
-                isFirstPage : (page - 1) == 0,
-                isLastPage : ((page -1) * 10 + docs.length) == total,
-                user : user,
-                success : req.flash('success').toString(),
-                error : req.flash('error').toString(),
-                site: settings.site
-            });
+            User.ranking(null, function(err, users){
+                res.render('main_page/index',{
+                    title : "AndyCall's blog",
+                    docs : docs,
+                    page : page,
+                    isFirstPage : (page - 1) == 0,
+                    isLastPage : ((page -1) * 10 + docs.length) == total,
+                    user : user,
+                    success : req.flash('success').toString(),
+                    error : req.flash('error').toString(),
+                    site: settings.site,
+                    ranking : users
+                }); 
+            })
+            
         });
     });
 
+router.get('/commentImg', function(req, res){
+    var captcha = ccap(),
+        ary = captcha.get(),
+        buffer = ary[1];
+
+    exam_text = ary[0];
+
+    res.set('Content-Type', "image/bmp");
+    res.send(buffer);
+});
+
+
 router.post('/',function(req,res){
         var date = new Date();
-        var name = req.body.username || 'andycall';
-        var time = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' +  date.getDate() + ' ' + date.getHours() + ':' + (date.getMinutes() < 10 ? ("0" + date.getMinutes()) : date.getMinutes())
+        var name = req.body.username;
+        var exam = req.body.exam;
+        var time = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' +  date.getDate() + ' ' + date.getHours() + ':' + (date.getMinutes() < 10 ? ("0" + date.getMinutes()) : date.getMinutes());
         if(req.body.content == "" && req.body.name == ''){
             req.flash('error','empty message');
+            return res.redirect('back');
+        }
+
+
+        if(exam.toUpperCase() != text.toUpperCase()){
+            req.flash('error', "验证码错误！");
             return res.redirect('back');
         }
         var comment = {
@@ -77,8 +105,10 @@ router.post('/',function(req,res){
             email : req.body.email,
             content  : req.body.content
         };
+
+
         var newComment = new Comment(name,req.body.article_date,req.body.article_title,comment);
-        // console.log(newComment);
+        console.log(newComment);
         newComment.save(function(err){
             if(err){
                 req.flash('error',err);
@@ -224,7 +254,8 @@ router.post('/register',function(req,res){
         var password = req.body.psw;
         var re_password = req.body.repsw;
         var email = req.body.email,
-            permission = req.body.permission;
+            permission = req.body.permission,
+            tag = req.body.tag;
 
         if(password != re_password){
             // console.log('error1');
@@ -240,7 +271,8 @@ router.post('/register',function(req,res){
             password : password,
             email : email,
             permission: permission,
-            score : 0
+            score : 0,
+            tag : tag
         });
 
         //check the username is exist

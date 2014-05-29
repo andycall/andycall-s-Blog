@@ -16,11 +16,7 @@ Comment.prototype.save = function(callback){
 
 	
 
-	mongodb.open(function(err,db){
-		if(err){
-			return callback(err);
-		}
-		db.collection('publishs',function(err,collection){
+	mongodb.open('publishs',function(err,collection){
 			if(err){
 				mongodb.close();
 				return callback(err);
@@ -38,6 +34,5 @@ Comment.prototype.save = function(callback){
 				}
 				callback(null);
 			});
-		});
 	});
 }

@@ -8,6 +8,7 @@ function User(user){
     this.blogTitle = user.blogTitle;
     this.blogDescription = user.blogDescription;
     this.score = user.score;
+    this.tag = user.tag;
 }
 
 module.exports = User;
@@ -21,7 +22,8 @@ User.prototype.save = function(callback){
         permission : this.permission,
         blogTitle : this.blogTitle,
         blogDescription : this.blogDescription,
-        score : this.score
+        score : this.score,
+        tag : this.tag
 	};
 	// open the database
 	mongodb.open('users',function(err,collection){
@@ -77,7 +79,7 @@ User.getAll = function(username,callback){
 
         collection.find(query).sort({time : -1}).toArray(function(err,users){
             mongodb.close();
-            if(err){
+            if(err){    
                 return callback(err);
             }
 
@@ -86,6 +88,33 @@ User.getAll = function(username,callback){
     });
 };
 
+User.ranking = function(username, callback){
+    if(typeof name === 'undefined'){
+        console.log('the name is undefined');
+    }
+
+    mongodb.open('users', function(err, collection) {
+        if(err){
+            mongodb.close();
+            return callback(err);
+        }   
+
+        var query = {};
+        if(username){
+            query.username = username;
+        }
+
+        collection.find(query,{ password : 0, permission : 0, _id : 0}).sort({score : -1}).toArray(function(err, users){
+            mongodb.close();
+            if(err){
+                return callback(err);
+            }
+
+            callback(null, users)
+        });
+    });
+}
+ 
 User.remove = function(username, callback){
     mongodb.open('users',function(err,collection){
         if(err){

@@ -1,0 +1,19 @@
+<div class="view_box" style='float:right'>
+	<table border="1">
+		<tr>
+			<th>用户名</th>
+			<th>标签</th>
+			<th>积分</th>
+			<th>排名</th>
+		</tr>
+		<% ranking.forEach(function(value, index){ %>
+		<tr>
+			<td><%= value.username %></td>
+			<td><%= value.Tag %></td>
+			<td><%= value.score %></td>
+			<td><%- index + 1 %></td>
+		</tr>
+		<% });%>
+		
+	</table>
+</div>	
