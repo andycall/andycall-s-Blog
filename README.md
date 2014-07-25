@@ -27,10 +27,10 @@ browse ```http://127.0.0.1:3000/register```
 
 
 ### Admin
-browse ```http://127.0.0.1:8888/andycall```
+browse ```http://127.0.0.1:3000/andycall```
 
 
-#### Author: [Zeroling][0]
+#### Author: [Andycall][0]
 
 [0]: http://blog.andycall.net
 [1]: https://github.com/dongtiangche
